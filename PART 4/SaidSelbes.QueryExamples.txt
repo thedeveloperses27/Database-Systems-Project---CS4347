@@ -1,0 +1,625 @@
+Query 1
+
+MariaDB [SaidNew]> Select EventID, SUBSTRING(EventName,1, 50) as Title, EventType, Date, StartTime, EndTime, Location from Event WHERE EventType='Seminar';
+
+
++---------+-----------------------------------------------+-----------+------------+-----------+----------+-------------------------------------+
+| EventID | Title                                         | EventType | Date       | StartTime | EndTime  | Location                            |
++---------+-----------------------------------------------+-----------+------------+-----------+----------+-------------------------------------+
+|       1 | Guest Lecture on Quantum Mechanics            | Seminar   | 2024-05-15 | 14:00:00  | 16:00:00 | Physics Lab                         |
+|       2 | Literature Symposium: Shakespeare's Legacy    | Seminar   | 2024-05-20 | 10:00:00  | 12:00:00 | Library Auditorium                  |
+|       3 | Panel Discussion: Ethics in Science           | Seminar   | 2024-05-25 | 15:00:00  | 17:00:00 | Ethics Center                       |
+|       4 | Historical Perspectives on World Wars         | Seminar   | 2024-06-02 | 14:00:00  | 16:00:00 | History Department Seminar Room     |
+|       5 | Environmental Conservation Forum              | Seminar   | 2024-06-08 | 09:00:00  | 11:00:00 | Environmental Science Building      |
+|       6 | Mathematics Colloquium: Chaos Theory          | Seminar   | 2024-06-15 | 10:00:00  | 12:00:00 | Mathematics Department Seminar Room |
+|       7 | Art History Lecture: Renaissance Masterpieces | Seminar   | 2024-06-22 | 15:00:00  | 17:00:00 | Art Gallery                         |
+|       8 | Philosophy Symposium: Existentialism          | Seminar   | 2024-06-29 | 14:00:00  | 16:00:00 | Philosophy Department Seminar Room  |
+|       9 | Medical Ethics Conference                     | Seminar   | 2024-07-05 | 09:00:00  | 11:00:00 | Medical School Auditorium           |
+|      10 | Psychology Colloquium: Cognitive Neuroscience | Seminar   | 2024-07-12 | 10:00:00  | 12:00:00 | Psychology Department Seminar Room  |
+|      11 | Resume Writing Workshop                       | Seminar   | 2024-05-10 | 14:00:00  | 16:00:00 | Career Center                       |
+|      12 | Interview Skills Seminar                      | Seminar   | 2024-05-15 | 10:00:00  | 12:00:00 | Conference Room A                   |
+|      13 | Networking Strategies Workshop                | Seminar   | 2024-05-20 | 15:00:00  | 17:00:00 | Career Center                       |
+|      14 | Personal Branding Seminar                     | Seminar   | 2024-05-25 | 14:00:00  | 16:00:00 | Conference Room B                   |
+|      15 | Career Exploration Panel                      | Seminar   | 2024-06-02 | 10:00:00  | 12:00:00 | Lecture Hall                        |
+|      16 | Salary Negotiation Workshop                   | Seminar   | 2024-06-08 | 15:00:00  | 17:00:00 | Conference Room C                   |
+|      17 | Job Search Strategies Seminar                 | Seminar   | 2024-06-15 | 14:00:00  | 16:00:00 | Career Center                       |
+|      18 | LinkedIn Optimization Workshop                | Seminar   | 2024-06-22 | 10:00:00  | 12:00:00 | Computer Lab                        |
+|      19 | Professional Development Seminar              | Seminar   | 2024-06-29 | 15:00:00  | 17:00:00 | Conference Room D                   |
+|      20 | Work-Life Balance Seminar                     | Seminar   | 2024-07-05 | 14:00:00  | 16:00:00 | Career Center                       |
+|      21 | Networking 101: Building Connections          | Seminar   | 2024-05-10 | 14:00:00  | 16:00:00 | Conference Room A                   |
+|      22 | Effective Communication Strategies            | Seminar   | 2024-05-15 | 10:00:00  | 12:00:00 | Meeting Room B                      |
+|      23 | Digital Networking Workshop                   | Seminar   | 2024-05-20 | 15:00:00  | 17:00:00 | Computer Lab                        |
+|      24 | Personal Branding Seminar                     | Seminar   | 2024-05-25 | 14:00:00  | 16:00:00 | Conference Room C                   |
+|      25 | Industry Panel Discussion                     | Seminar   | 2024-06-02 | 10:00:00  | 12:00:00 | Lecture Hall                        |
+|      26 | Strategic Networking Workshop                 | Seminar   | 2024-06-08 | 15:00:00  | 17:00:00 | Conference Room D                   |
+|      27 | Effective Follow-Up Practices                 | Seminar   | 2024-06-15 | 14:00:00  | 16:00:00 | Meeting Room E                      |
+|      28 | Networking in the Digital Age                 | Seminar   | 2024-06-22 | 10:00:00  | 12:00:00 | Computer Lab                        |
+|      29 | Building Professional Relationships           | Seminar   | 2024-06-29 | 15:00:00  | 17:00:00 | Conference Room F                   |
+|      30 | Networking Mixer and Social Event             | Seminar   | 2024-07-05 | 14:00:00  | 16:00:00 | Event Space                         |
+|      31 | Introduction to Research Methods              | Seminar   | 2024-05-10 | 14:00:00  | 16:00:00 | Research Lab                        |
+|      32 | Literature Review Strategies                  | Seminar   | 2024-05-15 | 10:00:00  | 12:00:00 | Library Seminar Room                |
+|      33 | Data Analysis Workshop                        | Seminar   | 2024-05-20 | 15:00:00  | 17:00:00 | Computer Lab                        |
+|      34 | Experimental Design Seminar                   | Seminar   | 2024-05-25 | 14:00:00  | 16:00:00 | Research Lab                        |
+|      35 | Qualitative Research Discussion               | Seminar   | 2024-06-02 | 10:00:00  | 12:00:00 | Conference Room A                   |
+|      36 | Quantitative Research Seminar                 | Seminar   | 2024-06-08 | 15:00:00  | 17:00:00 | Conference Room B                   |
+|      37 | Research Ethics Forum                         | Seminar   | 2024-06-15 | 14:00:00  | 16:00:00 | Ethics Center                       |
+|      38 | Publication Strategies Workshop               | Seminar   | 2024-06-22 | 10:00:00  | 12:00:00 | Library Seminar Room                |
+|      39 | Grant Writing Seminar                         | Seminar   | 2024-06-29 | 15:00:00  | 17:00:00 | Conference Room C                   |
+|      40 | Research Presentation Skills Workshop         | Seminar   | 2024-07-05 | 14:00:00  | 16:00:00 | Presentation Hall                   |
+|      41 | Emerging Technologies Panel                   | Seminar   | 2024-05-10 | 14:00:00  | 16:00:00 | Innovation Hub                      |
+|      42 | Blockchain Basics Workshop                    | Seminar   | 2024-05-15 | 10:00:00  | 12:00:00 | Technology Lab                      |
+|      43 | Artificial Intelligence Symposium             | Seminar   | 2024-05-20 | 15:00:00  | 17:00:00 | AI Research Center                  |
+|      44 | Cybersecurity Awareness Session               | Seminar   | 2024-05-25 | 14:00:00  | 16:00:00 | Cybersecurity Lab                   |
+|      45 | Internet of Things (IoT) Workshop             | Seminar   | 2024-06-02 | 10:00:00  | 12:00:00 | IoT Innovation Center               |
+|      46 | Big Data Analytics Seminar                    | Seminar   | 2024-06-08 | 15:00:00  | 17:00:00 | Data Analytics Lab                  |
+|      47 | Cloud Computing Forum                         | Seminar   | 2024-06-15 | 14:00:00  | 16:00:00 | Cloud Innovation Center             |
+|      48 | Augmented Reality (AR) Showcase               | Seminar   | 2024-06-22 | 10:00:00  | 12:00:00 | AR Experience Center                |
+|      49 | Robotics Innovation Talk                      | Seminar   | 2024-06-29 | 15:00:00  | 17:00:00 | Robotics Lab                        |
+|      50 | Future of Technology Symposium                | Seminar   | 2024-07-05 | 14:00:00  | 16:00:00 | Innovation Hub                      |
++---------+-----------------------------------------------+-----------+------------+-----------+----------+-------------------------------------+
+50 rows in set (0.001 sec)
+
+Query 2 
+
+MariaDB [SaidNew]> 
+select c.ClubID, c.Name as ClubName, e.EventID, e.EventName, e.Date as EventDate, e.Location as EventLocation from Club c INNER JOIN Organizes o ON c.ClubID = o.ClubID INNER JOIN Event e ON o.EventID = e.EventID ORDER BY c.ClubID, e.Date;
+
++--------+--------------------------------+---------+-----------------------------------------------+------------+-------------------------------------+
+| ClubID | ClubName                       | EventID | EventName                                     | EventDate  | EventLocation                       |
++--------+--------------------------------+---------+-----------------------------------------------+------------+-------------------------------------+
+|      1 | Academic Club                  |       1 | Guest Lecture on Quantum Mechanics            | 2024-05-15 | Physics Lab                         |
+|      1 | Academic Club                  |       2 | Literature Symposium: Shakespeare's Legacy    | 2024-05-20 | Library Auditorium                  |
+|      1 | Academic Club                  |       3 | Panel Discussion: Ethics in Science           | 2024-05-25 | Ethics Center                       |
+|      1 | Academic Club                  |       4 | Historical Perspectives on World Wars         | 2024-06-02 | History Department Seminar Room     |
+|      1 | Academic Club                  |       5 | Environmental Conservation Forum              | 2024-06-08 | Environmental Science Building      |
+|      1 | Academic Club                  |       6 | Mathematics Colloquium: Chaos Theory          | 2024-06-15 | Mathematics Department Seminar Room |
+|      1 | Academic Club                  |       7 | Art History Lecture: Renaissance Masterpieces | 2024-06-22 | Art Gallery                         |
+|      1 | Academic Club                  |       8 | Philosophy Symposium: Existentialism          | 2024-06-29 | Philosophy Department Seminar Room  |
+|      1 | Academic Club                  |       9 | Medical Ethics Conference                     | 2024-07-05 | Medical School Auditorium           |
+|      1 | Academic Club                  |      10 | Psychology Colloquium: Cognitive Neuroscience | 2024-07-12 | Psychology Department Seminar Room  |
+|      2 | Career Development Club        |      11 | Resume Writing Workshop                       | 2024-05-10 | Career Center                       |
+|      2 | Career Development Club        |      12 | Interview Skills Seminar                      | 2024-05-15 | Conference Room A                   |
+|      2 | Career Development Club        |      13 | Networking Strategies Workshop                | 2024-05-20 | Career Center                       |
+|      2 | Career Development Club        |      14 | Personal Branding Seminar                     | 2024-05-25 | Conference Room B                   |
+|      2 | Career Development Club        |      15 | Career Exploration Panel                      | 2024-06-02 | Lecture Hall                        |
+|      2 | Career Development Club        |      16 | Salary Negotiation Workshop                   | 2024-06-08 | Conference Room C                   |
+|      2 | Career Development Club        |      17 | Job Search Strategies Seminar                 | 2024-06-15 | Career Center                       |
+|      2 | Career Development Club        |      18 | LinkedIn Optimization Workshop                | 2024-06-22 | Computer Lab                        |
+|      2 | Career Development Club        |      19 | Professional Development Seminar              | 2024-06-29 | Conference Room D                   |
+|      2 | Career Development Club        |      20 | Work-Life Balance Seminar                     | 2024-07-05 | Career Center                       |
+|      3 | Professional Networking Club   |      21 | Networking 101: Building Connections          | 2024-05-10 | Conference Room A                   |
+|      3 | Professional Networking Club   |      22 | Effective Communication Strategies            | 2024-05-15 | Meeting Room B                      |
+|      3 | Professional Networking Club   |      23 | Digital Networking Workshop                   | 2024-05-20 | Computer Lab                        |
+|      3 | Professional Networking Club   |      24 | Personal Branding Seminar                     | 2024-05-25 | Conference Room C                   |
+|      3 | Professional Networking Club   |      25 | Industry Panel Discussion                     | 2024-06-02 | Lecture Hall                        |
+|      3 | Professional Networking Club   |      26 | Strategic Networking Workshop                 | 2024-06-08 | Conference Room D                   |
+|      3 | Professional Networking Club   |      27 | Effective Follow-Up Practices                 | 2024-06-15 | Meeting Room E                      |
+|      3 | Professional Networking Club   |      28 | Networking in the Digital Age                 | 2024-06-22 | Computer Lab                        |
+|      3 | Professional Networking Club   |      29 | Building Professional Relationships           | 2024-06-29 | Conference Room F                   |
+|      3 | Professional Networking Club   |      30 | Networking Mixer and Social Event             | 2024-07-05 | Event Space                         |
+|      4 | Research Club                  |      31 | Introduction to Research Methods              | 2024-05-10 | Research Lab                        |
+|      4 | Research Club                  |      32 | Literature Review Strategies                  | 2024-05-15 | Library Seminar Room                |
+|      4 | Research Club                  |      33 | Data Analysis Workshop                        | 2024-05-20 | Computer Lab                        |
+|      4 | Research Club                  |      34 | Experimental Design Seminar                   | 2024-05-25 | Research Lab                        |
+|      4 | Research Club                  |      35 | Qualitative Research Discussion               | 2024-06-02 | Conference Room A                   |
+|      4 | Research Club                  |      36 | Quantitative Research Seminar                 | 2024-06-08 | Conference Room B                   |
+|      4 | Research Club                  |      37 | Research Ethics Forum                         | 2024-06-15 | Ethics Center                       |
+|      4 | Research Club                  |      38 | Publication Strategies Workshop               | 2024-06-22 | Library Seminar Room                |
+|      4 | Research Club                  |      39 | Grant Writing Seminar                         | 2024-06-29 | Conference Room C                   |
+|      4 | Research Club                  |      40 | Research Presentation Skills Workshop         | 2024-07-05 | Presentation Hall                   |
+|      5 | Technology and Innovation Club |      41 | Emerging Technologies Panel                   | 2024-05-10 | Innovation Hub                      |
+|      5 | Technology and Innovation Club |      42 | Blockchain Basics Workshop                    | 2024-05-15 | Technology Lab                      |
+|      5 | Technology and Innovation Club |      43 | Artificial Intelligence Symposium             | 2024-05-20 | AI Research Center                  |
+|      5 | Technology and Innovation Club |      44 | Cybersecurity Awareness Session               | 2024-05-25 | Cybersecurity Lab                   |
+|      5 | Technology and Innovation Club |      45 | Internet of Things (IoT) Workshop             | 2024-06-02 | IoT Innovation Center               |
+|      5 | Technology and Innovation Club |      46 | Big Data Analytics Seminar                    | 2024-06-08 | Data Analytics Lab                  |
+|      5 | Technology and Innovation Club |      47 | Cloud Computing Forum                         | 2024-06-15 | Cloud Innovation Center             |
+|      5 | Technology and Innovation Club |      48 | Augmented Reality (AR) Showcase               | 2024-06-22 | AR Experience Center                |
+|      5 | Technology and Innovation Club |      49 | Robotics Innovation Talk                      | 2024-06-29 | Robotics Lab                        |
+|      5 | Technology and Innovation Club |      50 | Future of Technology Symposium                | 2024-07-05 | Innovation Hub                      |
+|      6 | Entrepreneurship Club          |      51 | Business Model Canvas Workshop                | 2024-05-10 | Startup Incubator                   |
+|      6 | Entrepreneurship Club          |      52 | Pitch Deck Essentials                         | 2024-05-15 | Conference Room A                   |
+|      6 | Entrepreneurship Club          |      53 | Customer Discovery Workshop                   | 2024-05-20 | Entrepreneurship Lab                |
+|      6 | Entrepreneurship Club          |      54 | Financial Planning Bootcamp                   | 2024-05-25 | Financial Resource Center           |
+|      6 | Entrepreneurship Club          |      55 | Marketing Strategies Workshop                 | 2024-06-02 | Marketing Lab                       |
+|      6 | Entrepreneurship Club          |      56 | Legal Essentials for Startups                 | 2024-06-08 | Legal Clinic                        |
+|      6 | Entrepreneurship Club          |      57 | Product Development Workshop                  | 2024-06-15 | Innovation Lab                      |
+|      6 | Entrepreneurship Club          |      58 | Funding Strategies Seminar                    | 2024-06-22 | Investor Forum                      |
+|      6 | Entrepreneurship Club          |      59 | Networking Skills Workshop                    | 2024-06-29 | Networking Lounge                   |
+|      6 | Entrepreneurship Club          |      60 | Startup Pitch Competition                     | 2024-07-05 | Auditorium                          |
+|      7 | Coding Club                    |      61 | Introduction to Web Development               | 2024-05-10 | Computer Lab A                      |
+|      7 | Coding Club                    |      62 | Python Programming Fundamentals               | 2024-05-15 | Computer Lab B                      |
+|      7 | Coding Club                    |      63 | JavaScript Frameworks Workshop                | 2024-05-20 | Computer Lab C                      |
+|      7 | Coding Club                    |      64 | Data Structures and Algorithms Bootcamp       | 2024-05-25 | Computer Lab D                      |
+|      7 | Coding Club                    |      65 | Mobile App Development Workshop               | 2024-06-02 | Computer Lab E                      |
+|      7 | Coding Club                    |      66 | Introduction to Git and GitHub                | 2024-06-08 | Computer Lab F                      |
+|      7 | Coding Club                    |      67 | Full-Stack Development Crash Course           | 2024-06-15 | Computer Lab G                      |
+|      7 | Coding Club                    |      68 | Cybersecurity Basics Workshop                 | 2024-06-22 | Computer Lab H                      |
+|      7 | Coding Club                    |      69 | UI/UX Design Workshop                         | 2024-06-29 | Computer Lab I                      |
+|      7 | Coding Club                    |      70 | Cloud Computing Essentials                    | 2024-07-05 | Computer Lab J                      |
+|      8 | Creative Writing Club          |      71 | Character Development Workshop                | 2024-05-10 | Library Meeting Room                |
+|      8 | Creative Writing Club          |      72 | Plotting and Structure Seminar                | 2024-05-15 | English Department Seminar Room     |
+|      8 | Creative Writing Club          |      73 | Dialogue Writing Workshop                     | 2024-05-20 | Creative Writing Club Room          |
+|      8 | Creative Writing Club          |      74 | Worldbuilding Essentials Workshop             | 2024-05-25 | Library Study Hall                  |
+|      8 | Creative Writing Club          |      75 | Poetry Writing Workshop                       | 2024-06-02 | Arts Building Workshop Room         |
+|      8 | Creative Writing Club          |      76 | Flash Fiction Workshop                        | 2024-06-08 | Creative Writing Club Room          |
+|      8 | Creative Writing Club          |      77 | Editing and Revision Techniques Seminar       | 2024-06-15 | English Department Seminar Room     |
+|      8 | Creative Writing Club          |      78 | Publishing Paths Discussion                   | 2024-06-22 | Library Meeting Room                |
+|      8 | Creative Writing Club          |      79 | Creative Nonfiction Workshop                  | 2024-06-29 | Creative Writing Club Room          |
+|      8 | Creative Writing Club          |      80 | Storytelling Techniques Workshop              | 2024-07-05 | Arts Building Workshop Room         |
+|      9 | Photography Club               |      81 | Introduction to Photography                   | 2024-05-10 | Photography Club Room               |
+|      9 | Photography Club               |      82 | Portrait Photography Workshop                 | 2024-05-15 | Outdoor Location TBD                |
+|      9 | Photography Club               |      83 | Landscape Photography Expedition              | 2024-05-20 | Outdoor Location TBD                |
+|      9 | Photography Club               |      84 | Street Photography Walk                       | 2024-05-25 | City Center                         |
+|      9 | Photography Club               |      85 | Night Photography Workshop                    | 2024-06-02 | Outdoor Location TBD                |
+|      9 | Photography Club               |      86 | Macro Photography Seminar                     | 2024-06-08 | Photography Club Room               |
+|      9 | Photography Club               |      87 | Travel Photography Workshop                   | 2024-06-15 | Outdoor Location TBD                |
+|      9 | Photography Club               |      88 | Experimental Photography Workshop             | 2024-06-22 | Photography Club Room               |
+|      9 | Photography Club               |      89 | Photo Editing Techniques Seminar              | 2024-06-29 | Computer Lab                        |
+|      9 | Photography Club               |      90 | Photography Exhibition Preparation            | 2024-07-05 | Photography Club Room               |
+|     10 | Health and Wellness Club       |      91 | Yoga Basics Workshop                          | 2024-05-10 | Wellness Center                     |
+|     10 | Health and Wellness Club       |      92 | Healthy Eating Seminar                        | 2024-05-15 | Student Cafeteria                   |
+|     10 | Health and Wellness Club       |      93 | Mindfulness Meditation Workshop               | 2024-05-20 | Wellness Center                     |
+|     10 | Health and Wellness Club       |      94 | Stress Management Techniques Seminar          | 2024-05-25 | Student Lounge                      |
+|     10 | Health and Wellness Club       |      95 | Fitness Fundamentals Workshop                 | 2024-06-02 | Campus Gym                          |
+|     10 | Health and Wellness Club       |      96 | Sleep Hygiene Workshop                        | 2024-06-08 | Wellness Center                     |
+|     10 | Health and Wellness Club       |      97 | Emotional Wellness Seminar                    | 2024-06-15 | Student Counseling Center           |
+|     10 | Health and Wellness Club       |      98 | Self-Care Strategies Workshop                 | 2024-06-22 | Wellness Center                     |
+|     10 | Health and Wellness Club       |      99 | Healthy Relationships Workshop                | 2024-06-29 | Student Lounge                      |
+|     10 | Health and Wellness Club       |     100 | Holistic Wellness Seminar                     | 2024-07-05 | Wellness Center                     |
+|     11 | Community Outreach Club        |     101 | Beach Cleanup Day                             | 2024-05-10 | Local Beach                         |
+|     11 | Community Outreach Club        |     102 | Soup Kitchen Volunteering                     | 2024-05-15 | City Homeless Shelter               |
+|     11 | Community Outreach Club        |     103 | Community Garden Planting                     | 2024-05-20 | Community Garden                    |
+|     11 | Community Outreach Club        |     104 | Senior Center Visit                           | 2024-05-25 | Local Senior Center                 |
+|     11 | Community Outreach Club        |     105 | Park Cleanup and Beautification               | 2024-06-02 | City Park                           |
+|     11 | Community Outreach Club        |     106 | Blood Drive Volunteer Day                     | 2024-06-08 | Community Center                    |
+|     11 | Community Outreach Club        |     107 | School Supply Drive                           | 2024-06-15 | Local School                        |
+|     11 | Community Outreach Club        |     108 | Pet Adoption Event                            | 2024-06-22 | Animal Shelter                      |
+|     11 | Community Outreach Club        |     109 | Home Repair and Renovation Project            | 2024-06-29 | Local Neighborhood                  |
+|     11 | Community Outreach Club        |     110 | Environmental Education Workshop              | 2024-07-05 | Community Center                    |
+|     12 | Volunteer Service Society      |     111 | Food Bank Volunteering                        | 2024-05-10 | Local Food Bank                     |
+|     12 | Volunteer Service Society      |     112 | Homeless Shelter Support                      | 2024-05-15 | City Homeless Shelter               |
+|     12 | Volunteer Service Society      |     113 | Community Cleanup Day                         | 2024-05-20 | City Streets                        |
+|     12 | Volunteer Service Society      |     114 | Senior Center Visitation                      | 2024-05-25 | Local Senior Center                 |
+|     12 | Volunteer Service Society      |     115 | Environmental Cleanup Initiative              | 2024-06-02 | Local Park                          |
+|     12 | Volunteer Service Society      |     116 | Blood Donation Drive                          | 2024-06-08 | Community Center                    |
+|     12 | Volunteer Service Society      |     117 | School Tutoring Program                       | 2024-06-15 | Local School                        |
+|     12 | Volunteer Service Society      |     118 | Animal Shelter Volunteering                   | 2024-06-22 | Animal Shelter                      |
+|     12 | Volunteer Service Society      |     119 | Home Repair Assistance                        | 2024-06-29 | Local Neighborhood                  |
+|     12 | Volunteer Service Society      |     120 | Community Garden Maintenance                  | 2024-07-05 | Community Garden                    |
+|     13 | Civic Engagement Association   |     121 | Voter Registration Drive                      | 2024-05-10 | City Hall                           |
+|     13 | Civic Engagement Association   |     122 | Community Town Hall Meeting                   | 2024-05-15 | Community Center                    |
+|     13 | Civic Engagement Association   |     123 | Environmental Advocacy Campaign               | 2024-05-20 | City Park                           |
+|     13 | Civic Engagement Association   |     124 | Community Clean-Up Day                        | 2024-05-25 | City Streets                        |
+|     13 | Civic Engagement Association   |     125 | Youth Mentorship Program                      | 2024-06-02 | Local Community Center              |
+|     13 | Civic Engagement Association   |     126 | Citizenship Workshop                          | 2024-06-08 | Community Center                    |
+|     13 | Civic Engagement Association   |     127 | Elderly Assistance Program                    | 2024-06-15 | Senior Living Facility              |
+|     13 | Civic Engagement Association   |     128 | Community Garden Initiative                   | 2024-06-22 | Community Garden                    |
+|     13 | Civic Engagement Association   |     129 | Literacy Program for Underserved Communities  | 2024-06-29 | Local Library                       |
+|     13 | Civic Engagement Association   |     130 | Homeless Outreach Day                         | 2024-07-05 | City Streets                        |
+|     14 | Social Impact Society          |     131 | Homeless Shelter Volunteer Day                | 2024-05-10 | Local Homeless Shelter              |
+|     14 | Social Impact Society          |     132 | Environmental Cleanup Initiative              | 2024-05-15 | City Park                           |
+|     14 | Social Impact Society          |     133 | Community Food Drive                          | 2024-05-20 | Local Community Center              |
+|     14 | Social Impact Society          |     134 | Senior Center Visitation                      | 2024-05-25 | Local Senior Center                 |
+|     14 | Social Impact Society          |     135 | Children's Hospital Volunteering              | 2024-06-02 | Local Children's Hospital           |
+|     14 | Social Impact Society          |     136 | Animal Shelter Adoption Event                 | 2024-06-08 | Animal Shelter                      |
+|     14 | Social Impact Society          |     137 | Community Literacy Program                    | 2024-06-15 | Local Library                       |
+|     14 | Social Impact Society          |     138 | Community Garden Maintenance                  | 2024-06-22 | Community Garden                    |
+|     14 | Social Impact Society          |     139 | Blood Donation Drive                          | 2024-06-29 | Community Center                    |
+|     14 | Social Impact Society          |     140 | Community Recycling Initiative                | 2024-07-05 | City Recycling Center               |
+|     15 | Service Learning Alliance      |     141 | Community Clean-Up Day                        | 2024-05-10 | City Streets                        |
+|     15 | Service Learning Alliance      |     142 | Soup Kitchen Volunteering                     | 2024-05-15 | Local Soup Kitchen                  |
+|     15 | Service Learning Alliance      |     143 | Senior Center Assistance Program              | 2024-05-20 | Local Senior Center                 |
+|     15 | Service Learning Alliance      |     144 | Community Garden Project                      | 2024-05-25 | Community Garden                    |
+|     15 | Service Learning Alliance      |     145 | Blood Drive Volunteer Day                     | 2024-06-02 | Community Center                    |
+|     15 | Service Learning Alliance      |     146 | Community Recycling Event                     | 2024-06-08 | City Recycling Center               |
+|     15 | Service Learning Alliance      |     147 | Home Repair Volunteer Project                 | 2024-06-15 | Local Neighborhood                  |
+|     15 | Service Learning Alliance      |     148 | Literacy Outreach Program                     | 2024-06-22 | Local Library                       |
+|     15 | Service Learning Alliance      |     149 | Community Health Fair                         | 2024-06-29 | Community Center                    |
+|     15 | Service Learning Alliance      |     150 | Youth Mentorship Initiative                   | 2024-07-05 | Local Community Center              |
+|     16 | Unity Alliance                 |     151 | Networking Mixer: Cultural Exchange           | 2024-05-10 | Student Center                      |
+|     16 | Unity Alliance                 |     152 | Movie Night: Diversity Celebration            | 2024-05-15 | Outdoor Amphitheater                |
+|     16 | Unity Alliance                 |     153 | Cultural Potluck Dinner                       | 2024-05-20 | Student Commons                     |
+|     16 | Unity Alliance                 |     154 | International Music Showcase                  | 2024-05-25 | Auditorium                          |
+|     16 | Unity Alliance                 |     155 | Dance Workshop: Latin Rhythms                 | 2024-06-02 | Dance Studio                        |
+|     16 | Unity Alliance                 |     156 | Board Game Night: Unity Edition               | 2024-06-08 | Student Lounge                      |
+|     16 | Unity Alliance                 |     157 | Unity Picnic in the Park                      | 2024-06-15 | City Park                           |
+|     16 | Unity Alliance                 |     158 | Art Exhibition: Celebrating Diversity         | 2024-06-22 | Art Gallery                         |
+|     16 | Unity Alliance                 |     159 | Community Volunteer Day: Unity in Action      | 2024-06-29 | Local Community Center              |
+|     16 | Unity Alliance                 |     160 | Open Mic Night: Voices of Unity               | 2024-07-05 | Student Union                       |
+|     17 | Diversity Network              |     161 | Cultural Food Festival                        | 2024-05-10 | Student Center                      |
+|     17 | Diversity Network              |     162 | Unity Dance Party                             | 2024-05-15 | Campus Gymnasium                    |
+|     17 | Diversity Network              |     163 | Cultural Movie Night                          | 2024-05-20 | Outdoor Amphitheater                |
+|     17 | Diversity Network              |     164 | International Fashion Show                    | 2024-05-25 | Student Union                       |
+|     17 | Diversity Network              |     165 | Language Exchange Mixer                       | 2024-06-02 | Student Commons                     |
+|     17 | Diversity Network              |     166 | Cultural Trivia Night                         | 2024-06-08 | Student Lounge                      |
+|     17 | Diversity Network              |     167 | Unity Art Workshop                            | 2024-06-15 | Art Studio                          |
+|     17 | Diversity Network              |     168 | Cultural Heritage Exhibition                  | 2024-06-22 | Student Gallery                     |
+|     17 | Diversity Network              |     169 | Global Music Concert                          | 2024-06-29 | Outdoor Stage                       |
+|     17 | Diversity Network              |     170 | Unity Picnic and Games Day                    | 2024-07-05 | City Park                           |
+|     18 | Social Harmony Society         |     171 | Unity Potluck Dinner                          | 2024-05-10 | Student Center                      |
+|     18 | Social Harmony Society         |     172 | Diversity Dance Showcase                      | 2024-05-15 | Campus Auditorium                   |
+|     18 | Social Harmony Society         |     173 | International Film Festival                   | 2024-05-20 | Student Union                       |
+|     18 | Social Harmony Society         |     174 | Cultural Art Exhibition                       | 2024-05-25 | Art Gallery                         |
+|     18 | Social Harmony Society         |     175 | Language Exchange Social                      | 2024-06-02 | Student Commons                     |
+|     18 | Social Harmony Society         |     176 | Unity Talent Show                             | 2024-06-08 | Student Lounge                      |
+|     18 | Social Harmony Society         |     177 | Cultural Heritage Day                         | 2024-06-15 | Outdoor Pavilion                    |
+|     18 | Social Harmony Society         |     178 | Global Music Jam Session                      | 2024-06-22 | Campus Green                        |
+|     18 | Social Harmony Society         |     179 | Unity Sports Tournament                       | 2024-06-29 | Campus Sports Complex               |
+|     18 | Social Harmony Society         |     180 | Interfaith Dialogue Circle                    | 2024-07-05 | Interfaith Center                   |
+|     19 | Cultural Exchange Club         |     181 | International Food Festival                   | 2024-05-10 | Student Center                      |
+|     19 | Cultural Exchange Club         |     182 | Global Dance Party                            | 2024-05-15 | Campus Gymnasium                    |
+|     19 | Cultural Exchange Club         |     183 | Cultural Film Night                           | 2024-05-20 | Outdoor Amphitheater                |
+|     19 | Cultural Exchange Club         |     184 | Traditional Music Concert                     | 2024-05-25 | Student Union                       |
+|     19 | Cultural Exchange Club         |     185 | Language Exchange Mixer                       | 2024-06-02 | Student Commons                     |
+|     19 | Cultural Exchange Club         |     186 | Cultural Trivia Challenge                     | 2024-06-08 | Student Lounge                      |
+|     19 | Cultural Exchange Club         |     187 | Cultural Craft Workshop                       | 2024-06-15 | Art Studio                          |
+|     19 | Cultural Exchange Club         |     188 | Cultural Fashion Show                         | 2024-06-22 | Campus Green                        |
+|     19 | Cultural Exchange Club         |     189 | Cultural Poetry Slam                          | 2024-06-29 | Student Lounge                      |
+|     19 | Cultural Exchange Club         |     190 | Unity Picnic and Games                        | 2024-07-05 | City Park                           |
+|     20 | Global Connections Club        |     191 | International Potluck Dinner                  | 2024-05-10 | Student Center                      |
+|     20 | Global Connections Club        |     192 | Unity Dance Night                             | 2024-05-15 | Campus Gymnasium                    |
+|     20 | Global Connections Club        |     193 | Global Film Festival                          | 2024-05-20 | Outdoor Amphitheater                |
+|     20 | Global Connections Club        |     194 | Cultural Music Concert                        | 2024-05-25 | Student Union                       |
+|     20 | Global Connections Club        |     195 | Language Exchange Social                      | 2024-06-02 | Student Commons                     |
+|     20 | Global Connections Club        |     196 | Cultural Trivia Night                         | 2024-06-08 | Student Lounge                      |
+|     20 | Global Connections Club        |     197 | Global Art Exhibition                         | 2024-06-15 | Art Studio                          |
+|     20 | Global Connections Club        |     198 | Cultural Fashion Show                         | 2024-06-22 | Campus Green                        |
+|     20 | Global Connections Club        |     199 | Global Poetry Slam                            | 2024-06-29 | Student Lounge                      |
+|     20 | Global Connections Club        |     200 | Unity Picnic and Games                        | 2024-07-05 | City Park                           |
++--------+--------------------------------+---------+-----------------------------------------------+------------+-------------------------------------+
+
+Query 3 aggregate function
+
+MariaDB [SaidNew]> SELECT     d.Name,     COUNT(e.UserID) AS NumEmployees,     AVG(e.Salary) AS AverageSalary FROM     Employee e INNER JOIN     Faculty f ON e.UserID = f.UserID INNER JOIN Departments d ON d.DepartmentID = f.DepartmentID  GROUP BY     d.DepartmentID;
++------------------------+--------------+---------------+
+| Name                   | NumEmployees | AverageSalary |
++------------------------+--------------+---------------+
+| Administration         |            3 |    81356.3333 |
+| Admissions             |            1 |    56443.0000 |
+| Finance                |            2 |    44473.0000 |
+| Human Resources        |            3 |    65955.3333 |
+| Academic Affairs       |            2 |    55208.0000 |
+| Facilities Management  |            4 |    55164.5000 |
+| Information Technology |            1 |    54189.0000 |
+| Financial Aid          |            2 |    76109.5000 |
+| Career Services        |            8 |    48399.6250 |
+| Student Affairs        |            5 |    79753.6000 |
++------------------------+--------------+---------------+
+
+
+Query 4:
+MariaDB [SaidNew]> 
+       SELECT
+    ->     c.ClubID,
+    ->     c.Name AS ClubName,
+    ->     COUNT(s.UserID) AS NumSubscribers
+    -> FROM
+    ->     Club c
+    -> LEFT OUTER JOIN
+    ->     Subscribe s ON c.ClubID = s.ClubID
+    -> GROUP BY
+    ->     c.ClubID, c.Name
+    -> ORDER BY
+    c.ClubID;
++--------+--------------------------------+----------------+
+| ClubID | ClubName                       | NumSubscribers |
++--------+--------------------------------+----------------+
+|      1 | Academic Club                  |             24 |
+|      2 | Career Development Club        |             18 |
+|      3 | Professional Networking Club   |             15 |
+|      4 | Research Club                  |             27 |
+|      5 | Technology and Innovation Club |             13 |
+|      6 | Entrepreneurship Club          |             10 |
+|      7 | Coding Club                    |             12 |
+|      8 | Creative Writing Club          |             12 |
+|      9 | Photography Club               |             10 |
+|     10 | Health and Wellness Club       |             15 |
+|     11 | Community Outreach Club        |             19 |
+|     12 | Volunteer Service Society      |             18 |
+|     13 | Civic Engagement Association   |             13 |
+|     14 | Social Impact Society          |             15 |
+|     15 | Service Learning Alliance      |             19 |
+|     16 | Unity Alliance                 |             13 |
+|     17 | Diversity Network              |              8 |
+|     18 | Social Harmony Society         |             14 |
+|     19 | Cultural Exchange Club         |              8 |
+|     20 | Global Connections Club        |             13 |
++--------+--------------------------------+----------------+
+
+
+Query 5:
+
+MariaDB [SaidNew]> SELECT
+    ->     Subscribe.UserID,
+    ->     User.Name,
+    ->     'Subscriber' AS UserType
+    -> FROM
+    ->     Subscribe
+    -> JOIN
+    ->     User ON Subscribe.UserID = User.UserID
+    -> 
+    -> UNION
+    -> 
+    -> -- Users who are employees
+    -> SELECT
+    ->     Employee.UserID,
+    ->     User.Name,
+    ->     'Employee' AS UserType
+    -> FROM
+    ->     Employee
+    -> JOIN
+    ->     User ON Employee.UserID = User.UserID;
++--------+------------------------+------------+
+| UserID | Name                   | UserType   |
++--------+------------------------+------------+
+|      3 | Catherine Nguyen       | Subscriber |
+|      6 | Misty Jones            | Subscriber |
+|      8 | Tammy Nelson           | Subscriber |
+|      9 | Kelly Edwards          | Subscriber |
+|     10 | Mark Rosales           | Subscriber |
+|     12 | Carl Foster            | Subscriber |
+|     13 | Paul White             | Subscriber |
+|     14 | Jessica Castillo       | Subscriber |
+|     15 | Katie Aguirre          | Subscriber |
+|     19 | Kevin Jenkins          | Subscriber |
+|     20 | Amy Mills              | Subscriber |
+|     21 | Jacob Duke             | Subscriber |
+|     22 | Stacie Montgomery      | Subscriber |
+|     24 | Annette Camacho        | Subscriber |
+|     25 | Erica Martinez         | Subscriber |
+|     27 | Daryl Terrell          | Subscriber |
+|     28 | Jose Parsons           | Subscriber |
+|     29 | Jennifer Briggs MD     | Subscriber |
+|     30 | Allen Bryant           | Subscriber |
+|     31 | Angel Smith            | Subscriber |
+|     32 | Robert Wagner          | Subscriber |
+|     35 | Paul Smith             | Subscriber |
+|     37 | Mrs. Samantha Carr DVM | Subscriber |
+|     39 | Gary Jones             | Subscriber |
+|     42 | Mr. Oscar Osborne PhD  | Subscriber |
+|     43 | Amy Williams           | Subscriber |
+|     45 | Christopher Cruz       | Subscriber |
+|     47 | Mark Hurley            | Subscriber |
+|     48 | Bobby Hill             | Subscriber |
+|     50 | Taylor Ballard         | Subscriber |
+|     51 | Jennifer Kelly         | Subscriber |
+|     52 | Jennifer Villegas PhD  | Subscriber |
+|     53 | Amanda Murray          | Subscriber |
+|     54 | Krystal Cook           | Subscriber |
+|     55 | Cynthia Schwartz       | Subscriber |
+|     56 | Rebecca Harris         | Subscriber |
+|     57 | Elizabeth Garcia       | Subscriber |
+|     58 | James Weaver           | Subscriber |
+|     59 | Regina Moore           | Subscriber |
+|     60 | Kimberly Rodriguez     | Subscriber |
+|     62 | Colleen Ryan           | Subscriber |
+|     63 | Rita Hall              | Subscriber |
+|     64 | Jennifer Schneider     | Subscriber |
+|     65 | Kevin Jenkins          | Subscriber |
+|     66 | Tanner Irwin           | Subscriber |
+|     67 | Joseph Wilson          | Subscriber |
+|     68 | Nicole Walker          | Subscriber |
+|     69 | Tracy Smith            | Subscriber |
+|     70 | Elizabeth Rodriguez    | Subscriber |
+|     71 | Andrew Cline           | Subscriber |
+|     72 | Emily Riley            | Subscriber |
+|     74 | Jessica Reynolds       | Subscriber |
+|     76 | Christian Miller       | Subscriber |
+|     77 | Ashley Shannon         | Subscriber |
+|     78 | Stacey Harrington      | Subscriber |
+|     79 | Robert Johnson         | Subscriber |
+|     80 | Angela Haynes          | Subscriber |
+|     81 | Nicole Thomas          | Subscriber |
+|     82 | Karen Ortiz            | Subscriber |
+|     83 | Julie Norris           | Subscriber |
+|     84 | Dawn Johnson           | Subscriber |
+|     85 | Mark Hodge             | Subscriber |
+|     88 | Amanda Reyes           | Subscriber |
+|     89 | Juan Harris            | Subscriber |
+|     90 | Bryan Rodriguez        | Subscriber |
+|     91 | Ryan Solis             | Subscriber |
+|     93 | Juan Jones             | Subscriber |
+|     94 | Dr. Julia Evans        | Subscriber |
+|     96 | Rachel Jones           | Subscriber |
+|     97 | Jerry Quinn            | Subscriber |
+|    100 | Keith Lewis            | Subscriber |
+|    101 | Rachel Diaz            | Subscriber |
+|    102 | Tamara Carter          | Subscriber |
+|    104 | Mrs. Leah Jacobs DDS   | Subscriber |
+|    110 | Andrea White DDS       | Subscriber |
+|    111 | Kendra Harmon          | Subscriber |
+|    113 | Troy Ramirez           | Subscriber |
+|    117 | Kristine King          | Subscriber |
+|    118 | Erin Graham            | Subscriber |
+|    119 | Adam Pena              | Subscriber |
+|    120 | Lori Rivas             | Subscriber |
+|    121 | Deborah Romero         | Subscriber |
+|    124 | Lori Morrison          | Subscriber |
+|    125 | Dwayne Smith           | Subscriber |
+|    129 | James Jones            | Subscriber |
+|    130 | Sara Huffman           | Subscriber |
+|    131 | Marie Salazar          | Subscriber |
+|    132 | Lisa Medina            | Subscriber |
+|    138 | Tara Alexander         | Subscriber |
+|    139 | Wendy Strickland       | Subscriber |
+|    140 | Vincent Ferguson       | Subscriber |
+|    141 | Kelly Tate             | Subscriber |
+|    143 | Kayla Pena             | Subscriber |
+|    144 | Karen Williams         | Subscriber |
+|    145 | Holly Duffy            | Subscriber |
+|    146 | Scott Wilkinson        | Subscriber |
+|    147 | Mark Bass              | Subscriber |
+|    148 | Stanley Martin         | Subscriber |
+|    150 | Daniel Perez           | Subscriber |
+|    151 | Michael Jimenez        | Subscriber |
+|    153 | Craig Powell           | Subscriber |
+|    154 | Steven Beck            | Subscriber |
+|    155 | Johnathan Hanna        | Subscriber |
+|    156 | Ashley Dillon          | Subscriber |
+|    157 | Jermaine Brennan       | Subscriber |
+|    158 | Gabriel Giles          | Subscriber |
+|    159 | Derek Avila            | Subscriber |
+|    160 | Samantha Campbell      | Subscriber |
+|    161 | Sharon Riley           | Subscriber |
+|    162 | Thomas Maddox III      | Subscriber |
+|    163 | Steven Knight          | Subscriber |
+|    166 | Kent Burnett           | Subscriber |
+|    167 | James Cox              | Subscriber |
+|    169 | Monique Flores         | Subscriber |
+|    170 | Carl Wheeler           | Subscriber |
+|    171 | Jonathan Alexander     | Subscriber |
+|    172 | Nicholas Hebert        | Subscriber |
+|    173 | Cynthia Decker         | Subscriber |
+|    178 | Nicole Lane            | Subscriber |
+|    182 | Jenna Jimenez          | Subscriber |
+|    186 | Tracy Griffin          | Subscriber |
+|    188 | Yesenia Camacho        | Subscriber |
+|    189 | Victoria Silva         | Subscriber |
+|    191 | Mary Sanchez           | Subscriber |
+|    193 | Martin Diaz            | Subscriber |
+|    194 | Stephen Ray            | Subscriber |
+|    195 | Erica Burke            | Subscriber |
+|    196 | Kristina Garcia        | Subscriber |
+|    197 | Frank Martinez         | Subscriber |
+|    198 | Kevin Banks            | Subscriber |
+|    201 | Hector Barnes          | Subscriber |
+|    205 | Benjamin Murray        | Subscriber |
+|    207 | Shelly White           | Subscriber |
+|    210 | Deanna Oliver          | Subscriber |
+|    211 | Kristin Osborn         | Subscriber |
+|    212 | Julia Sims             | Subscriber |
+|    213 | Anthony Padilla        | Subscriber |
+|    214 | Robert Jefferson       | Subscriber |
+|    216 | Raymond Lee            | Subscriber |
+|    218 | Sue Morton             | Subscriber |
+|    220 | Henry Williams         | Subscriber |
+|    222 | Jesse Henry            | Subscriber |
+|    223 | Megan Acosta           | Subscriber |
+|    225 | Walter Heath           | Subscriber |
+|    230 | Bruce Salazar          | Subscriber |
+|    231 | Anthony Lynch          | Subscriber |
+|    232 | Kimberly Davis         | Subscriber |
+|    233 | Charles Rojas          | Subscriber |
+|    235 | Adrian Flores          | Subscriber |
+|    237 | Christopher Smith      | Subscriber |
+|    238 | Melanie Ward           | Subscriber |
+|    239 | David Jones            | Subscriber |
+|    240 | Mr. Anthony Sawyer     | Subscriber |
+|    243 | Joshua Stone           | Subscriber |
+|    245 | Rodney Fowler          | Subscriber |
+|    247 | Joseph Castillo        | Subscriber |
+|    248 | Joseph Kemp MD         | Subscriber |
+|    252 | Miranda Smith          | Subscriber |
+|    253 | Laura Dickerson        | Subscriber |
+|    256 | Anna Harrington        | Subscriber |
+|    257 | Zachary Cooper         | Subscriber |
+|    258 | Amanda Huffman         | Subscriber |
+|    261 | Vincent Scott          | Subscriber |
+|    262 | James Gomez            | Subscriber |
+|    263 | Crystal Bowman         | Subscriber |
+|    265 | Richard Miles          | Subscriber |
+|    266 | Tyler Williams         | Subscriber |
+|    267 | Stephen Barajas        | Subscriber |
+|    268 | Claudia George         | Subscriber |
+|    270 | Benjamin Cole          | Subscriber |
+|    271 | Sarah Smith            | Subscriber |
+|    272 | Jon Reyes              | Subscriber |
+|    273 | Shelia Calhoun         | Subscriber |
+|    274 | Casey Rosario          | Subscriber |
+|    278 | William Boyd           | Subscriber |
+|    279 | Kelly Walton           | Subscriber |
+|    281 | Dawn Gray              | Subscriber |
+|    282 | Linda Benson           | Subscriber |
+|    284 | Michael Lopez          | Subscriber |
+|    286 | George Bradley         | Subscriber |
+|    288 | Arthur Collins         | Subscriber |
+|    289 | Cheryl Young           | Subscriber |
+|    290 | David Smith            | Subscriber |
+|    292 | Daryl Buckley          | Subscriber |
+|    293 | Brian Brewer           | Subscriber |
+|    295 | Marisa Berg            | Subscriber |
+|    296 | Timothy Olson          | Subscriber |
+|    297 | Jonathan Hahn          | Subscriber |
+|    298 | Lisa Sandoval          | Subscriber |
+|    299 | Rose Clark             | Subscriber |
+|    300 | Luke Coleman           | Subscriber |
+|     11 | Desiree Murphy         | Employee   |
+|     15 | Katie Aguirre          | Employee   |
+|     17 | Patty Martin           | Employee   |
+|     22 | Stacie Montgomery      | Employee   |
+|     24 | Annette Camacho        | Employee   |
+|     27 | Daryl Terrell          | Employee   |
+|     28 | Jose Parsons           | Employee   |
+|     40 | Suzanne Hughes         | Employee   |
+|     44 | Cody Coleman           | Employee   |
+|     46 | Katherine Callahan     | Employee   |
+|     50 | Taylor Ballard         | Employee   |
+|     62 | Colleen Ryan           | Employee   |
+|     66 | Tanner Irwin           | Employee   |
+|     67 | Joseph Wilson          | Employee   |
+|     71 | Andrew Cline           | Employee   |
+|     77 | Ashley Shannon         | Employee   |
+|     78 | Stacey Harrington      | Employee   |
+|     81 | Nicole Thomas          | Employee   |
+|     86 | Jeffrey Reyes          | Employee   |
+|     90 | Bryan Rodriguez        | Employee   |
+|     97 | Jerry Quinn            | Employee   |
+|     98 | Glenn Reed             | Employee   |
+|     99 | Ryan Smith             | Employee   |
+|    101 | Rachel Diaz            | Employee   |
+|    104 | Mrs. Leah Jacobs DDS   | Employee   |
+|    106 | Debbie Elliott         | Employee   |
+|    110 | Andrea White DDS       | Employee   |
+|    112 | Ms. Julia Romero       | Employee   |
+|    114 | Cheryl Nash            | Employee   |
+|    115 | Brittany Fitzpatrick   | Employee   |
+|    122 | Brenda Warren          | Employee   |
+|    136 | Kim Marshall           | Employee   |
+|    138 | Tara Alexander         | Employee   |
+|    140 | Vincent Ferguson       | Employee   |
+|    147 | Mark Bass              | Employee   |
+|    148 | Stanley Martin         | Employee   |
+|    150 | Daniel Perez           | Employee   |
+|    152 | April Lopez            | Employee   |
+|    153 | Craig Powell           | Employee   |
+|    154 | Steven Beck            | Employee   |
+|    159 | Derek Avila            | Employee   |
+|    174 | Joe Olson              | Employee   |
+|    179 | Lauren Morales         | Employee   |
+|    180 | Christina Lyons        | Employee   |
+|    183 | Keith Sampson          | Employee   |
+|    195 | Erica Burke            | Employee   |
+|    198 | Kevin Banks            | Employee   |
+|    213 | Anthony Padilla        | Employee   |
+|    215 | Sharon Shaw            | Employee   |
+|    216 | Raymond Lee            | Employee   |
+|    217 | Sarah Miller           | Employee   |
+|    220 | Henry Williams         | Employee   |
+|    226 | Gina Atkins            | Employee   |
+|    229 | Brandon Park           | Employee   |
+|    232 | Kimberly Davis         | Employee   |
+|    236 | Benjamin Mora          | Employee   |
+|    239 | David Jones            | Employee   |
+|    240 | Mr. Anthony Sawyer     | Employee   |
+|    243 | Joshua Stone           | Employee   |
+|    244 | Stephen Martin         | Employee   |
+|    245 | Rodney Fowler          | Employee   |
+|    251 | Beth Howard            | Employee   |
+|    253 | Laura Dickerson        | Employee   |
+|    255 | Veronica Downs         | Employee   |
+|    267 | Stephen Barajas        | Employee   |
+|    268 | Claudia George         | Employee   |
+|    277 | Donna Garcia           | Employee   |
+|    280 | Gregory Hamilton       | Employee   |
+|    283 | Cristian Simmons       | Employee   |
+|    289 | Cheryl Young           | Employee   |
+|    290 | David Smith            | Employee   |
+|    291 | Michael Page           | Employee   |
+|    292 | Daryl Buckley          | Employee   |
+|    294 | Mr. Alexander Cannon   | Employee   |
+|    296 | Timothy Olson          | Employee   |
++--------+------------------------+------------+
+266 rows in set (0.004 sec)
+
+

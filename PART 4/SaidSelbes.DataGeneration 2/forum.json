@@ -1,0 +1,105 @@
+{
+    "forums": {
+      "Academic Club": {
+        "Title": "Academic Club Discussion Forum",
+        "Description": "Discuss academic topics, share resources, and connect with fellow members of the Academic Club.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Career Development Club": {
+        "Title": "Career Development Club Discussion Forum",
+        "Description": "Engage in discussions related to career growth, job opportunities, and professional development within the Career Development Club community.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Professional Networking Club": {
+        "Title": "Professional Networking Club Discussion Forum",
+        "Description": "Network with professionals, exchange industry insights, and foster meaningful connections in the Professional Networking Club discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Research Club": {
+        "Title": "Research Club Discussion Forum",
+        "Description": "Share research findings, collaborate on projects, and explore new ideas in the Research Club discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Technology and Innovation Club": {
+        "Title": "Technology and Innovation Club Discussion Forum",
+        "Description": "Exchange ideas, discuss innovations, and explore emerging technologies in the Technology and Innovation Club discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Entrepreneurship Club": {
+        "Title": "Entrepreneurship Club Discussion Forum",
+        "Description": "Brainstorm ideas, share startup experiences, and network with fellow entrepreneurs in the Entrepreneurship Club discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Coding Club": {
+        "Title": "Coding Club Discussion Forum",
+        "Description": "Discuss coding challenges, share programming tips, and collaborate on coding projects in the Coding Club discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Creative Writing Club": {
+        "Title": "Creative Writing Club Discussion Forum",
+        "Description": "Share your writing, receive feedback, and participate in writing prompts and challenges in the Creative Writing Club discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Photography Club": {
+        "Title": "Photography Club Discussion Forum",
+        "Description": "Showcase your photos, discuss photography techniques, and exchange creative ideas in the Photography Club discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Health and Wellness Club": {
+        "Title": "Health and Wellness Club Discussion Forum",
+        "Description": "Share wellness tips, discuss fitness goals, and support each other's journey to a healthier lifestyle in the Health and Wellness Club discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Community Outreach Club": {
+        "Title": "Community Outreach Club Discussion Forum",
+        "Description": "Plan community service events, share volunteer opportunities, and discuss ways to make a positive impact in the Community Outreach Club discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Volunteer Service Society": {
+        "Title": "Volunteer Service Society Discussion Forum",
+        "Description": "Collaborate on volunteer projects, share experiences, and discuss ways to give back to the community in the Volunteer Service Society discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Civic Engagement Association": {
+        "Title": "Civic Engagement Association Discussion Forum",
+        "Description": "Engage in discussions about civic issues, advocate for social change, and plan community engagement initiatives in the Civic Engagement Association discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Social Impact Society": {
+        "Title": "Social Impact Society Discussion Forum",
+        "Description": "Discuss social justice issues, share activism resources, and collaborate on projects to create positive social impact in the Social Impact Society discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Service Learning Alliance": {
+        "Title": "Service Learning Alliance Discussion Forum",
+        "Description": "Share reflections on service-learning experiences, collaborate on service projects, and discuss ways to integrate service into academic learning in the Service Learning Alliance discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Unity Alliance": {
+        "Title": "Unity Alliance Discussion Forum",
+        "Description": "Promote diversity and inclusion, discuss social issues, and foster unity and understanding in the Unity Alliance discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Diversity Network": {
+        "Title": "Diversity Network Discussion Forum",
+        "Description": "Celebrate diversity, engage in cultural exchange, and support inclusivity initiatives in the Diversity Network discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Social Harmony Society": {
+        "Title": "Social Harmony Society Discussion Forum",
+        "Description": "Facilitate dialogue on social harmony, promote intercultural understanding, and foster harmonious relationships in the Social Harmony Society discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Cultural Exchange Club": {
+        "Title": "Cultural Exchange Club Discussion Forum",
+        "Description": "Celebrate cultural diversity, share cultural experiences, and promote cross-cultural understanding in the Cultural Exchange Club discussion forum.",
+        "CreatedDate": "2024-01-01"
+      },
+      "Global Connections Club": {
+        "Title": "Global Connections Club Discussion Forum",
+        "Description": "Connect with peers from around the world, engage in global conversations, and foster intercultural friendships in the Global Connections Club discussion forum.",
+        "CreatedDate": "2024-01-01"
+      }
+    }
+  }
+  

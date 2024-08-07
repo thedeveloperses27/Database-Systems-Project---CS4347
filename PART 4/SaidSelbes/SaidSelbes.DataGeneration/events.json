@@ -1,0 +1,2604 @@
+{
+  "clubs": [
+    {
+      "ClubName": "Academic Club",
+      "events": [
+        {
+          "EventName": "Guest Lecture on Quantum Mechanics",
+          "EventType": "Seminar",
+          "Date": "2024-05-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Physics Lab",
+          "Description": "Dive into the fascinating world of quantum mechanics with an expert in the field.",
+          "Seminar": {
+            "Topic": "Exploring the Quantum Realm",
+            "Speaker": "Dr. Richard Thompson"
+          }
+        },
+        {
+          "EventName": "Literature Symposium: Shakespeare's Legacy",
+          "EventType": "Seminar",
+          "Date": "2024-05-20",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Library Auditorium",
+          "Description": "Discuss the enduring influence of William Shakespeare's works on literature and culture.",
+          "Seminar": {
+            "Topic": "Shakespearean Studies: Past, Present, and Future",
+            "Speaker": "Professor Emily Clark"
+          }
+        },
+        {
+          "EventName": "Panel Discussion: Ethics in Science",
+          "EventType": "Seminar",
+          "Date": "2024-05-25",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Ethics Center",
+          "Description": "Engage in a thoughtful conversation about ethical considerations in scientific research and practice.",
+          "Seminar": {
+            "Topic": "Navigating Ethical Dilemmas in Science",
+            "Speaker": "Dr. Sophia Rodriguez"
+          }
+        },
+        {
+          "EventName": "Historical Perspectives on World Wars",
+          "EventType": "Seminar",
+          "Date": "2024-06-02",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "History Department Seminar Room",
+          "Description": "Explore the causes, consequences, and legacies of the World Wars from various historical viewpoints.",
+          "Seminar": {
+            "Topic": "Revisiting World Wars: Lessons from History",
+            "Speaker": "Dr. James Anderson"
+          }
+        },
+        {
+          "EventName": "Environmental Conservation Forum",
+          "EventType": "Seminar",
+          "Date": "2024-06-08",
+          "StartTime": "09:00:00",
+          "EndTime": "11:00:00",
+          "Location": "Environmental Science Building",
+          "Description": "Discuss strategies for environmental conservation and sustainable development.",
+          "Seminar": {
+            "Topic": "Preserving Our Planet: Challenges and Solutions",
+            "Speaker": "Dr. Sarah Roberts"
+          }
+        },
+        {
+          "EventName": "Mathematics Colloquium: Chaos Theory",
+          "EventType": "Seminar",
+          "Date": "2024-06-15",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Mathematics Department Seminar Room",
+          "Description": "Explore the principles of chaos theory and its applications in mathematics and beyond.",
+          "Seminar": {
+            "Topic": "Chaos Theory: Order in Disorder",
+            "Speaker": "Professor David Wilson"
+          }
+        },
+        {
+          "EventName": "Art History Lecture: Renaissance Masterpieces",
+          "EventType": "Seminar",
+          "Date": "2024-06-22",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Art Gallery",
+          "Description": "Discover the beauty and significance of Renaissance art through an in-depth exploration of masterpieces.",
+          "Seminar": {
+            "Topic": "Unveiling Renaissance Art: A Journey Through Masterpieces",
+            "Speaker": "Dr. Olivia Taylor"
+          }
+        },
+        {
+          "EventName": "Philosophy Symposium: Existentialism",
+          "EventType": "Seminar",
+          "Date": "2024-06-29",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Philosophy Department Seminar Room",
+          "Description": "Engage in philosophical inquiries into the nature of existence and human freedom.",
+          "Seminar": {
+            "Topic": "Exploring Existentialism: Meaning and Authenticity",
+            "Speaker": "Dr. Benjamin Carter"
+          }
+        },
+        {
+          "EventName": "Medical Ethics Conference",
+          "EventType": "Seminar",
+          "Date": "2024-07-05",
+          "StartTime": "09:00:00",
+          "EndTime": "11:00:00",
+          "Location": "Medical School Auditorium",
+          "Description": "Discuss ethical challenges in medicine and healthcare delivery.",
+          "Seminar": {
+            "Topic": "Ethical Issues in Medicine: Balancing Care and Responsibility",
+            "Speaker": "Dr. Jessica Martinez"
+          }
+        },
+        {
+          "EventName": "Psychology Colloquium: Cognitive Neuroscience",
+          "EventType": "Seminar",
+          "Date": "2024-07-12",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Psychology Department Seminar Room",
+          "Description": "Explore the intersection of psychology and neuroscience in understanding cognitive processes.",
+          "Seminar": {
+            "Topic": "Probing the Mind: Insights from Cognitive Neuroscience",
+            "Speaker": "Dr. Michael Johnson"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Career Development Club",
+      "events": [
+        {
+          "EventName": "Resume Writing Workshop",
+          "EventType": "Seminar",
+          "Date": "2024-05-10",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Career Center",
+          "Description": "Learn effective strategies for crafting an impressive resume.",
+          "Seminar": {
+            "Topic": "Mastering Resume Writing",
+            "Speaker": "Ms. Emily Johnson"
+          }
+        },
+        {
+          "EventName": "Interview Skills Seminar",
+          "EventType": "Seminar",
+          "Date": "2024-05-15",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Conference Room A",
+          "Description": "Develop the essential skills needed to ace job interviews.",
+          "Seminar": {
+            "Topic": "Perfecting Your Interview Performance",
+            "Speaker": "Mr. Michael Brown"
+          }
+        },
+        {
+          "EventName": "Networking Strategies Workshop",
+          "EventType": "Seminar",
+          "Date": "2024-05-20",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Career Center",
+          "Description": "Learn effective networking techniques to expand your professional connections.",
+          "Seminar": {
+            "Topic": "Building Your Network for Career Success",
+            "Speaker": "Ms. Samantha Lee"
+          }
+        },
+        {
+          "EventName": "Personal Branding Seminar",
+          "EventType": "Seminar",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Conference Room B",
+          "Description": "Discover the importance of personal branding and how to create a strong professional image.",
+          "Seminar": {
+            "Topic": "Crafting Your Personal Brand",
+            "Speaker": "Dr. Rebecca Williams"
+          }
+        },
+        {
+          "EventName": "Career Exploration Panel",
+          "EventType": "Seminar",
+          "Date": "2024-06-02",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Lecture Hall",
+          "Description": "Gain insights into various career paths from experienced professionals in different industries.",
+          "Seminar": {
+            "Topic": "Exploring Career Options",
+            "Speaker": "Panel of Industry Experts"
+          }
+        },
+        {
+          "EventName": "Salary Negotiation Workshop",
+          "EventType": "Seminar",
+          "Date": "2024-06-08",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Conference Room C",
+          "Description": "Learn strategies for negotiating your salary and benefits package effectively.",
+          "Seminar": {
+            "Topic": "Negotiating Your Worth",
+            "Speaker": "Ms. Laura Garcia"
+          }
+        },
+        {
+          "EventName": "Job Search Strategies Seminar",
+          "EventType": "Seminar",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Career Center",
+          "Description": "Discover effective strategies and tools for navigating the job search process.",
+          "Seminar": {
+            "Topic": "Strategies for Landing Your Dream Job",
+            "Speaker": "Mr. David Miller"
+          }
+        },
+        {
+          "EventName": "LinkedIn Optimization Workshop",
+          "EventType": "Seminar",
+          "Date": "2024-06-22",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Computer Lab",
+          "Description": "Learn how to optimize your LinkedIn profile to attract employers and recruiters.",
+          "Seminar": {
+            "Topic": "Leveraging LinkedIn for Career Success",
+            "Speaker": "Ms. Jennifer Martinez"
+          }
+        },
+        {
+          "EventName": "Professional Development Seminar",
+          "EventType": "Seminar",
+          "Date": "2024-06-29",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Conference Room D",
+          "Description": "Explore opportunities for professional growth and advancement in your career.",
+          "Seminar": {
+            "Topic": "Investing in Your Professional Development",
+            "Speaker": "Dr. Kimberly Adams"
+          }
+        },
+        {
+          "EventName": "Work-Life Balance Seminar",
+          "EventType": "Seminar",
+          "Date": "2024-07-05",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Career Center",
+          "Description": "Discover strategies for achieving a healthy balance between work and personal life.",
+          "Seminar": {
+            "Topic": "Balancing Act: Navigating Work-Life Harmony",
+            "Speaker": "Ms. Jessica Martinez"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Professional Networking Club",
+      "events": [
+        {
+          "EventName": "Networking 101: Building Connections",
+          "EventType": "Seminar",
+          "Date": "2024-05-10",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Conference Room A",
+          "Description": "Learn the fundamentals of networking and how to effectively build professional connections.",
+          "Seminar": {
+            "Topic": "The Power of Networking",
+            "Speaker": "Ms. Emily Johnson"
+          }
+        },
+        {
+          "EventName": "Effective Communication Strategies",
+          "EventType": "Seminar",
+          "Date": "2024-05-15",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Meeting Room B",
+          "Description": "Discover communication techniques to enhance your networking interactions and convey your message effectively.",
+          "Seminar": {
+            "Topic": "Mastering Communication for Networking Success",
+            "Speaker": "Mr. Michael Brown"
+          }
+        },
+        {
+          "EventName": "Digital Networking Workshop",
+          "EventType": "Seminar",
+          "Date": "2024-05-20",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Computer Lab",
+          "Description": "Explore digital networking platforms and strategies to expand your professional network online.",
+          "Seminar": {
+            "Topic": "Navigating Digital Networking Spaces",
+            "Speaker": "Ms. Samantha Lee"
+          }
+        },
+        {
+          "EventName": "Personal Branding Seminar",
+          "EventType": "Seminar",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Conference Room C",
+          "Description": "Learn how to develop and promote your personal brand for effective networking.",
+          "Seminar": {
+            "Topic": "Crafting Your Professional Identity",
+            "Speaker": "Dr. Rebecca Williams"
+          }
+        },
+        {
+          "EventName": "Industry Panel Discussion",
+          "EventType": "Seminar",
+          "Date": "2024-06-02",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Lecture Hall",
+          "Description": "Engage with professionals from various industries and gain insights into career paths and trends.",
+          "Seminar": {
+            "Topic": "Exploring Career Opportunities",
+            "Speaker": "Panel of Industry Experts"
+          }
+        },
+        {
+          "EventName": "Strategic Networking Workshop",
+          "EventType": "Seminar",
+          "Date": "2024-06-08",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Conference Room D",
+          "Description": "Learn strategic networking techniques to maximize your professional connections and opportunities.",
+          "Seminar": {
+            "Topic": "Strategic Networking for Career Growth",
+            "Speaker": "Ms. Laura Garcia"
+          }
+        },
+        {
+          "EventName": "Effective Follow-Up Practices",
+          "EventType": "Seminar",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Meeting Room E",
+          "Description": "Discover best practices for following up with contacts and nurturing professional relationships.",
+          "Seminar": {
+            "Topic": "Mastering Follow-Up for Networking Success",
+            "Speaker": "Mr. David Miller"
+          }
+        },
+        {
+          "EventName": "Networking in the Digital Age",
+          "EventType": "Seminar",
+          "Date": "2024-06-22",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Computer Lab",
+          "Description": "Explore strategies for effective networking in the era of digital communication and social media.",
+          "Seminar": {
+            "Topic": "Adapting to Digital Networking Trends",
+            "Speaker": "Ms. Jennifer Martinez"
+          }
+        },
+        {
+          "EventName": "Building Professional Relationships",
+          "EventType": "Seminar",
+          "Date": "2024-06-29",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Conference Room F",
+          "Description": "Learn how to cultivate meaningful professional relationships and leverage them for career success.",
+          "Seminar": {
+            "Topic": "Nurturing Professional Connections",
+            "Speaker": "Dr. Kimberly Adams"
+          }
+        },
+        {
+          "EventName": "Networking Mixer and Social Event",
+          "EventType": "Seminar",
+          "Date": "2024-07-05",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Event Space",
+          "Description": "Connect with fellow professionals in a relaxed social setting and expand your network.",
+          "Seminar": {
+            "Topic": "Networking Social: Building Connections",
+            "Speaker": "Club Networking Committee"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Research Club",
+      "events": [
+        {
+          "EventName": "Introduction to Research Methods",
+          "EventType": "Seminar",
+          "Date": "2024-05-10",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Research Lab",
+          "Description": "Learn the fundamental research methods and techniques used in academic research.",
+          "Seminar": {
+            "Topic": "Exploring Research Methodologies",
+            "Speaker": "Dr. Emily Johnson"
+          }
+        },
+        {
+          "EventName": "Literature Review Strategies",
+          "EventType": "Seminar",
+          "Date": "2024-05-15",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Library Seminar Room",
+          "Description": "Discover effective strategies for conducting literature reviews and synthesizing research findings.",
+          "Seminar": {
+            "Topic": "Mastering Literature Reviews",
+            "Speaker": "Dr. Michael Brown"
+          }
+        },
+        {
+          "EventName": "Data Analysis Workshop",
+          "EventType": "Seminar",
+          "Date": "2024-05-20",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Computer Lab",
+          "Description": "Learn various data analysis techniques and tools for interpreting research data.",
+          "Seminar": {
+            "Topic": "Analyzing Research Data",
+            "Speaker": "Dr. Samantha Lee"
+          }
+        },
+        {
+          "EventName": "Experimental Design Seminar",
+          "EventType": "Seminar",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Research Lab",
+          "Description": "Explore principles of experimental design and how to plan and execute research experiments effectively.",
+          "Seminar": {
+            "Topic": "Designing Effective Experiments",
+            "Speaker": "Dr. Rebecca Williams"
+          }
+        },
+        {
+          "EventName": "Qualitative Research Discussion",
+          "EventType": "Seminar",
+          "Date": "2024-06-02",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Conference Room A",
+          "Description": "Engage in a discussion on qualitative research methods and their applications in various fields.",
+          "Seminar": {
+            "Topic": "Exploring Qualitative Research",
+            "Speaker": "Panel of Research Scholars"
+          }
+        },
+        {
+          "EventName": "Quantitative Research Seminar",
+          "EventType": "Seminar",
+          "Date": "2024-06-08",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Conference Room B",
+          "Description": "Gain insights into quantitative research methods and statistical analysis techniques.",
+          "Seminar": {
+            "Topic": "Quantitative Research Essentials",
+            "Speaker": "Dr. David Miller"
+          }
+        },
+        {
+          "EventName": "Research Ethics Forum",
+          "EventType": "Seminar",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Ethics Center",
+          "Description": "Discuss ethical considerations in research and learn best practices for ethical conduct in research.",
+          "Seminar": {
+            "Topic": "Ethics in Research: Principles and Practices",
+            "Speaker": "Dr. Olivia Taylor"
+          }
+        },
+        {
+          "EventName": "Publication Strategies Workshop",
+          "EventType": "Seminar",
+          "Date": "2024-06-22",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Library Seminar Room",
+          "Description": "Learn strategies for publishing research findings in academic journals and presenting at conferences.",
+          "Seminar": {
+            "Topic": "Navigating the Publication Process",
+            "Speaker": "Dr. Benjamin Carter"
+          }
+        },
+        {
+          "EventName": "Grant Writing Seminar",
+          "EventType": "Seminar",
+          "Date": "2024-06-29",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Conference Room C",
+          "Description": "Discover tips and techniques for writing successful grant proposals to fund research projects.",
+          "Seminar": {
+            "Topic": "Mastering Grant Writing",
+            "Speaker": "Dr. Jessica Martinez"
+          }
+        },
+        {
+          "EventName": "Research Presentation Skills Workshop",
+          "EventType": "Seminar",
+          "Date": "2024-07-05",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Presentation Hall",
+          "Description": "Enhance your presentation skills and learn how to effectively communicate research findings to diverse audiences.",
+          "Seminar": {
+            "Topic": "Presenting Research with Impact",
+            "Speaker": "Dr. Michael Johnson"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Technology and Innovation Club",
+      "events": [
+        {
+          "EventName": "Emerging Technologies Panel",
+          "EventType": "Seminar",
+          "Date": "2024-05-10",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Innovation Hub",
+          "Description": "Explore the latest trends and innovations in technology with experts from various fields.",
+          "Seminar": {
+            "Topic": "Discovering Emerging Technologies",
+            "Speaker": "Panel of Tech Experts"
+          }
+        },
+        {
+          "EventName": "Blockchain Basics Workshop",
+          "EventType": "Seminar",
+          "Date": "2024-05-15",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Technology Lab",
+          "Description": "Learn the fundamentals of blockchain technology and its potential applications.",
+          "Seminar": {
+            "Topic": "Demystifying Blockchain",
+            "Speaker": "Mr. Michael Brown"
+          }
+        },
+        {
+          "EventName": "Artificial Intelligence Symposium",
+          "EventType": "Seminar",
+          "Date": "2024-05-20",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "AI Research Center",
+          "Description": "Engage in discussions on the current state and future prospects of artificial intelligence.",
+          "Seminar": {
+            "Topic": "AI: From Theory to Practice",
+            "Speaker": "Dr. Samantha Lee"
+          }
+        },
+        {
+          "EventName": "Cybersecurity Awareness Session",
+          "EventType": "Seminar",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Cybersecurity Lab",
+          "Description": "Learn about the importance of cybersecurity and best practices for protecting digital assets.",
+          "Seminar": {
+            "Topic": "Cybersecurity Essentials",
+            "Speaker": "Dr. Rebecca Williams"
+          }
+        },
+        {
+          "EventName": "Internet of Things (IoT) Workshop",
+          "EventType": "Seminar",
+          "Date": "2024-06-02",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "IoT Innovation Center",
+          "Description": "Explore the applications and implications of the Internet of Things in various industries.",
+          "Seminar": {
+            "Topic": "Unlocking the Potential of IoT",
+            "Speaker": "Panel of IoT Experts"
+          }
+        },
+        {
+          "EventName": "Big Data Analytics Seminar",
+          "EventType": "Seminar",
+          "Date": "2024-06-08",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Data Analytics Lab",
+          "Description": "Discover how big data analytics is transforming industries and driving innovation.",
+          "Seminar": {
+            "Topic": "Harnessing Big Data for Insights",
+            "Speaker": "Dr. David Miller"
+          }
+        },
+        {
+          "EventName": "Cloud Computing Forum",
+          "EventType": "Seminar",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Cloud Innovation Center",
+          "Description": "Discuss the advantages and challenges of cloud computing and its impact on businesses.",
+          "Seminar": {
+            "Topic": "Cloud Revolution: Opportunities and Challenges",
+            "Speaker": "Dr. Olivia Taylor"
+          }
+        },
+        {
+          "EventName": "Augmented Reality (AR) Showcase",
+          "EventType": "Seminar",
+          "Date": "2024-06-22",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "AR Experience Center",
+          "Description": "Experience the latest advancements in augmented reality technology and its potential applications.",
+          "Seminar": {
+            "Topic": "Immersive Experiences with AR",
+            "Speaker": "Panel of AR Innovators"
+          }
+        },
+        {
+          "EventName": "Robotics Innovation Talk",
+          "EventType": "Seminar",
+          "Date": "2024-06-29",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Robotics Lab",
+          "Description": "Explore the latest developments in robotics and their impact on society and industries.",
+          "Seminar": {
+            "Topic": "Advancements in Robotics",
+            "Speaker": "Dr. Jessica Martinez"
+          }
+        },
+        {
+          "EventName": "Future of Technology Symposium",
+          "EventType": "Seminar",
+          "Date": "2024-07-05",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Innovation Hub",
+          "Description": "Discuss the future trends and innovations in technology that will shape our world.",
+          "Seminar": {
+            "Topic": "Innovations Shaping Tomorrow",
+            "Speaker": "Panel of Tech Futurists"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Entrepreneurship Club",
+      "events": [
+        {
+          "EventName": "Business Model Canvas Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-05-10",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Startup Incubator",
+          "Description": "Learn how to use the Business Model Canvas framework to develop and refine your business ideas.",
+          "Workshop": {
+            "Topic": "Building a Solid Business Model",
+            "Presenter": "John Smith"
+          }
+        },
+        {
+          "EventName": "Pitch Deck Essentials",
+          "EventType": "Workshop",
+          "Date": "2024-05-15",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Conference Room A",
+          "Description": "Discover the key components of an effective pitch deck and how to create a compelling presentation for investors.",
+          "Workshop": {
+            "Topic": "Crafting a Winning Pitch Deck",
+            "Presenter": "Emily Johnson"
+          }
+        },
+        {
+          "EventName": "Customer Discovery Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-05-20",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Entrepreneurship Lab",
+          "Description": "Learn how to conduct customer discovery interviews and validate your startup ideas.",
+          "Workshop": {
+            "Topic": "Understanding Your Customers",
+            "Presenter": "Michael Brown"
+          }
+        },
+        {
+          "EventName": "Financial Planning Bootcamp",
+          "EventType": "Workshop",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Financial Resource Center",
+          "Description": "Gain insights into financial planning strategies for startups and learn how to manage your finances effectively.",
+          "Workshop": {
+            "Topic": "Mastering Financial Management",
+            "Presenter": "Samantha Lee"
+          }
+        },
+        {
+          "EventName": "Marketing Strategies Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-02",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Marketing Lab",
+          "Description": "Explore effective marketing strategies and techniques to promote your startup and attract customers.",
+          "Workshop": {
+            "Topic": "Marketing Your Startup",
+            "Presenter": "Rebecca Williams"
+          }
+        },
+        {
+          "EventName": "Legal Essentials for Startups",
+          "EventType": "Workshop",
+          "Date": "2024-06-08",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Legal Clinic",
+          "Description": "Understand the legal aspects of starting a business, including entity formation, contracts, and intellectual property.",
+          "Workshop": {
+            "Topic": "Navigating Legal Challenges",
+            "Presenter": "David Miller"
+          }
+        },
+        {
+          "EventName": "Product Development Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Innovation Lab",
+          "Description": "Learn the process of developing and launching a new product, from ideation to prototype.",
+          "Workshop": {
+            "Topic": "From Idea to Product",
+            "Presenter": "Olivia Taylor"
+          }
+        },
+        {
+          "EventName": "Funding Strategies Seminar",
+          "EventType": "Workshop",
+          "Date": "2024-06-22",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Investor Forum",
+          "Description": "Explore various funding options for startups, including bootstrapping, angel investment, and venture capital.",
+          "Workshop": {
+            "Topic": "Securing Startup Funding",
+            "Presenter": "Benjamin Carter"
+          }
+        },
+        {
+          "EventName": "Networking Skills Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-29",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Networking Lounge",
+          "Description": "Develop effective networking skills to build connections and opportunities for your startup.",
+          "Workshop": {
+            "Topic": "Networking for Entrepreneurs",
+            "Presenter": "Jessica Martinez"
+          }
+        },
+        {
+          "EventName": "Startup Pitch Competition",
+          "EventType": "Workshop",
+          "Date": "2024-07-05",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Auditorium",
+          "Description": "Pitch your startup idea to a panel of judges and win prizes to fund your venture.",
+          "Workshop": {
+            "Topic": "Pitch Your Startup",
+            "Presenter": "Entrepreneurship Club Committee"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Coding Club",
+      "events": [
+        {
+          "EventName": "Introduction to Web Development",
+          "EventType": "Workshop",
+          "Date": "2024-05-10",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Computer Lab A",
+          "Description": "Get started with web development basics including HTML, CSS, and JavaScript.",
+          "Workshop": {
+            "Topic": "Building Your First Website",
+            "Presenter": "John Smith"
+          }
+        },
+        {
+          "EventName": "Python Programming Fundamentals",
+          "EventType": "Workshop",
+          "Date": "2024-05-15",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Computer Lab B",
+          "Description": "Learn the fundamentals of Python programming language for beginners.",
+          "Workshop": {
+            "Topic": "Mastering Python Basics",
+            "Presenter": "Emily Johnson"
+          }
+        },
+        {
+          "EventName": "JavaScript Frameworks Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-05-20",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Computer Lab C",
+          "Description": "Explore popular JavaScript frameworks like React.js and Vue.js for front-end development.",
+          "Workshop": {
+            "Topic": "Creating Interactive Web Applications",
+            "Presenter": "Michael Brown"
+          }
+        },
+        {
+          "EventName": "Data Structures and Algorithms Bootcamp",
+          "EventType": "Workshop",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Computer Lab D",
+          "Description": "Deep dive into data structures and algorithms essential for coding interviews and problem-solving.",
+          "Workshop": {
+            "Topic": "Mastering Data Structures and Algorithms",
+            "Presenter": "Samantha Lee"
+          }
+        },
+        {
+          "EventName": "Mobile App Development Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-02",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Computer Lab E",
+          "Description": "Learn how to develop mobile applications using frameworks like Flutter or React Native.",
+          "Workshop": {
+            "Topic": "Building Cross-Platform Mobile Apps",
+            "Presenter": "Rebecca Williams"
+          }
+        },
+        {
+          "EventName": "Introduction to Git and GitHub",
+          "EventType": "Workshop",
+          "Date": "2024-06-08",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Computer Lab F",
+          "Description": "Understand the basics of version control with Git and collaboration using GitHub.",
+          "Workshop": {
+            "Topic": "Effective Version Control with Git",
+            "Presenter": "David Miller"
+          }
+        },
+        {
+          "EventName": "Full-Stack Development Crash Course",
+          "EventType": "Workshop",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Computer Lab G",
+          "Description": "Learn how to build full-stack web applications from scratch using modern technologies.",
+          "Workshop": {
+            "Topic": "Mastering Full-Stack Development",
+            "Presenter": "Olivia Taylor"
+          }
+        },
+        {
+          "EventName": "Cybersecurity Basics Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-22",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Computer Lab H",
+          "Description": "Explore the fundamentals of cybersecurity and best practices for securing applications and data.",
+          "Workshop": {
+            "Topic": "Cybersecurity Fundamentals",
+            "Presenter": "Benjamin Carter"
+          }
+        },
+        {
+          "EventName": "UI/UX Design Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-29",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Computer Lab I",
+          "Description": "Discover principles of user interface (UI) and user experience (UX) design for creating intuitive and engaging applications.",
+          "Workshop": {
+            "Topic": "Designing User-Friendly Interfaces",
+            "Presenter": "Jessica Martinez"
+          }
+        },
+        {
+          "EventName": "Cloud Computing Essentials",
+          "EventType": "Workshop",
+          "Date": "2024-07-05",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Computer Lab J",
+          "Description": "Learn about cloud computing concepts and how to deploy applications on cloud platforms like AWS or Azure.",
+          "Workshop": {
+            "Topic": "Understanding Cloud Technologies",
+            "Presenter": "Coding Club Committee"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Creative Writing Club",
+      "events": [
+        {
+          "EventName": "Character Development Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-05-10",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Library Meeting Room",
+          "Description": "Learn techniques for creating well-rounded and believable characters in your stories.",
+          "Workshop": {
+            "Topic": "Crafting Memorable Characters",
+            "Presenter": "Jane Doe"
+          }
+        },
+        {
+          "EventName": "Plotting and Structure Seminar",
+          "EventType": "Workshop",
+          "Date": "2024-05-15",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "English Department Seminar Room",
+          "Description": "Explore different methods for structuring your stories and creating compelling plots.",
+          "Workshop": {
+            "Topic": "Building Engaging Story Structures",
+            "Presenter": "John Smith"
+          }
+        },
+        {
+          "EventName": "Dialogue Writing Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-05-20",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Creative Writing Club Room",
+          "Description": "Learn techniques for writing authentic and engaging dialogue that advances your story.",
+          "Workshop": {
+            "Topic": "Mastering Dialogue Writing",
+            "Presenter": "Emily Johnson"
+          }
+        },
+        {
+          "EventName": "Worldbuilding Essentials Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Library Study Hall",
+          "Description": "Discover strategies for creating immersive and believable fictional worlds for your stories.",
+          "Workshop": {
+            "Topic": "Building Rich Story Worlds",
+            "Presenter": "Michael Brown"
+          }
+        },
+        {
+          "EventName": "Poetry Writing Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-02",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Arts Building Workshop Room",
+          "Description": "Explore various forms of poetry and techniques for crafting expressive and impactful poems.",
+          "Workshop": {
+            "Topic": "Writing Poetry with Emotion",
+            "Presenter": "Samantha Lee"
+          }
+        },
+        {
+          "EventName": "Flash Fiction Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-08",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Creative Writing Club Room",
+          "Description": "Learn how to write concise and powerful flash fiction pieces that pack a punch.",
+          "Workshop": {
+            "Topic": "Crafting Microfiction Gems",
+            "Presenter": "Rebecca Williams"
+          }
+        },
+        {
+          "EventName": "Editing and Revision Techniques Seminar",
+          "EventType": "Workshop",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "English Department Seminar Room",
+          "Description": "Discover strategies for revising and polishing your writing to improve clarity and coherence.",
+          "Workshop": {
+            "Topic": "Refining Your Writing",
+            "Presenter": "David Miller"
+          }
+        },
+        {
+          "EventName": "Publishing Paths Discussion",
+          "EventType": "Workshop",
+          "Date": "2024-06-22",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Library Meeting Room",
+          "Description": "Explore different publishing options for writers and learn how to navigate the publishing industry.",
+          "Workshop": {
+            "Topic": "Navigating Publishing",
+            "Presenter": "Olivia Taylor"
+          }
+        },
+        {
+          "EventName": "Creative Nonfiction Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-29",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Creative Writing Club Room",
+          "Description": "Learn how to craft compelling nonfiction narratives that blend facts with storytelling techniques.",
+          "Workshop": {
+            "Topic": "Writing Nonfiction Creatively",
+            "Presenter": "Benjamin Carter"
+          }
+        },
+        {
+          "EventName": "Storytelling Techniques Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-07-05",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Arts Building Workshop Room",
+          "Description": "Explore different storytelling techniques and narrative structures to captivate your audience.",
+          "Workshop": {
+            "Topic": "Mastering Storytelling",
+            "Presenter": "Jessica Martinez"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Photography Club",
+      "events": [
+        {
+          "EventName": "Introduction to Photography",
+          "EventType": "Workshop",
+          "Date": "2024-05-10",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Photography Club Room",
+          "Description": "Learn the basics of photography, including camera settings, composition techniques, and lighting principles.",
+          "Workshop": {
+            "Topic": "Getting Started with Photography",
+            "Presenter": "Jane Doe"
+          }
+        },
+        {
+          "EventName": "Portrait Photography Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-05-15",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Outdoor Location TBD",
+          "Description": "Explore techniques for capturing compelling portraits, including posing, lighting, and composition.",
+          "Workshop": {
+            "Topic": "Mastering Portrait Photography",
+            "Presenter": "John Smith"
+          }
+        },
+        {
+          "EventName": "Landscape Photography Expedition",
+          "EventType": "Workshop",
+          "Date": "2024-05-20",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Outdoor Location TBD",
+          "Description": "Embark on a photography expedition to capture stunning landscape images and learn about composition in outdoor settings.",
+          "Workshop": {
+            "Topic": "Exploring Landscape Photography",
+            "Presenter": "Emily Johnson"
+          }
+        },
+        {
+          "EventName": "Street Photography Walk",
+          "EventType": "Workshop",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "City Center",
+          "Description": "Take a guided walk through the city streets to capture candid and compelling street photography shots.",
+          "Workshop": {
+            "Topic": "Capturing the Urban Landscape",
+            "Presenter": "Michael Brown"
+          }
+        },
+        {
+          "EventName": "Night Photography Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-02",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Outdoor Location TBD",
+          "Description": "Learn techniques for capturing stunning nightscapes and low-light photography.",
+          "Workshop": {
+            "Topic": "Mastering Night Photography",
+            "Presenter": "Samantha Lee"
+          }
+        },
+        {
+          "EventName": "Macro Photography Seminar",
+          "EventType": "Workshop",
+          "Date": "2024-06-08",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Photography Club Room",
+          "Description": "Discover the world of macro photography and learn how to capture intricate details up close.",
+          "Workshop": {
+            "Topic": "Exploring the Macro World",
+            "Presenter": "Rebecca Williams"
+          }
+        },
+        {
+          "EventName": "Travel Photography Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Outdoor Location TBD",
+          "Description": "Learn tips and techniques for capturing stunning travel photos and documenting your adventures.",
+          "Workshop": {
+            "Topic": "Capturing Travel Memories",
+            "Presenter": "David Miller"
+          }
+        },
+        {
+          "EventName": "Experimental Photography Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-22",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Photography Club Room",
+          "Description": "Explore creative and experimental photography techniques to push the boundaries of traditional photography.",
+          "Workshop": {
+            "Topic": "Pushing the Limits of Photography",
+            "Presenter": "Olivia Taylor"
+          }
+        },
+        {
+          "EventName": "Photo Editing Techniques Seminar",
+          "EventType": "Workshop",
+          "Date": "2024-06-29",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Computer Lab",
+          "Description": "Learn how to enhance and edit your photos using popular editing software.",
+          "Workshop": {
+            "Topic": "Mastering Photo Editing",
+            "Presenter": "Benjamin Carter"
+          }
+        },
+        {
+          "EventName": "Photography Exhibition Preparation",
+          "EventType": "Workshop",
+          "Date": "2024-07-05",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Photography Club Room",
+          "Description": "Prepare and curate your photos for an upcoming photography exhibition.",
+          "Workshop": {
+            "Topic": "Preparing for Exhibition",
+            "Presenter": "Jessica Martinez"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Health and Wellness Club",
+      "events": [
+        {
+          "EventName": "Yoga Basics Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-05-10",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Wellness Center",
+          "Description": "Learn the basic yoga poses and breathing techniques for relaxation and stress relief.",
+          "Workshop": {
+            "Topic": "Introduction to Yoga",
+            "Presenter": "Jane Doe"
+          }
+        },
+        {
+          "EventName": "Healthy Eating Seminar",
+          "EventType": "Workshop",
+          "Date": "2024-05-15",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Student Cafeteria",
+          "Description": "Discover the principles of balanced nutrition and learn how to make healthy food choices.",
+          "Workshop": {
+            "Topic": "Nutrition Essentials",
+            "Presenter": "John Smith"
+          }
+        },
+        {
+          "EventName": "Mindfulness Meditation Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-05-20",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Wellness Center",
+          "Description": "Practice mindfulness meditation techniques to improve focus, reduce stress, and promote overall well-being.",
+          "Workshop": {
+            "Topic": "Mindful Living",
+            "Presenter": "Emily Johnson"
+          }
+        },
+        {
+          "EventName": "Stress Management Techniques Seminar",
+          "EventType": "Workshop",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Student Lounge",
+          "Description": "Learn practical strategies for managing stress and maintaining emotional balance in daily life.",
+          "Workshop": {
+            "Topic": "Stress Reduction",
+            "Presenter": "Michael Brown"
+          }
+        },
+        {
+          "EventName": "Fitness Fundamentals Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-02",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Campus Gym",
+          "Description": "Explore basic fitness principles and exercises for strength, flexibility, and cardiovascular health.",
+          "Workshop": {
+            "Topic": "Getting Fit",
+            "Presenter": "Samantha Lee"
+          }
+        },
+        {
+          "EventName": "Sleep Hygiene Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-08",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Wellness Center",
+          "Description": "Learn about the importance of good sleep hygiene and strategies for improving sleep quality.",
+          "Workshop": {
+            "Topic": "Healthy Sleep Habits",
+            "Presenter": "Rebecca Williams"
+          }
+        },
+        {
+          "EventName": "Emotional Wellness Seminar",
+          "EventType": "Workshop",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Student Counseling Center",
+          "Description": "Discover techniques for enhancing emotional well-being and building resilience.",
+          "Workshop": {
+            "Topic": "Emotional Resilience",
+            "Presenter": "David Miller"
+          }
+        },
+        {
+          "EventName": "Self-Care Strategies Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-22",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Wellness Center",
+          "Description": "Learn practical self-care techniques to nurture your physical, mental, and emotional health.",
+          "Workshop": {
+            "Topic": "Self-Care Essentials",
+            "Presenter": "Olivia Taylor"
+          }
+        },
+        {
+          "EventName": "Healthy Relationships Workshop",
+          "EventType": "Workshop",
+          "Date": "2024-06-29",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Student Lounge",
+          "Description": "Explore strategies for fostering healthy relationships and effective communication.",
+          "Workshop": {
+            "Topic": "Building Healthy Connections",
+            "Presenter": "Benjamin Carter"
+          }
+        },
+        {
+          "EventName": "Holistic Wellness Seminar",
+          "EventType": "Workshop",
+          "Date": "2024-07-05",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Wellness Center",
+          "Description": "Discover the interconnectedness of physical, mental, and emotional well-being and explore holistic approaches to health.",
+          "Workshop": {
+            "Topic": "Holistic Health",
+            "Presenter": "Jessica Martinez"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Community Outreach Club",
+      "events": [
+        {
+          "EventName": "Beach Cleanup Day",
+          "EventType": "Community Service",
+          "Date": "2024-05-10",
+          "StartTime": "09:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Local Beach",
+          "Description": "Join us for a community beach cleanup to help preserve marine ecosystems and protect wildlife.",
+          "CommunityService": {
+            "Service": "Environmental Conservation"
+          }
+        },
+        {
+          "EventName": "Soup Kitchen Volunteering",
+          "EventType": "Community Service",
+          "Date": "2024-05-15",
+          "StartTime": "11:00:00",
+          "EndTime": "13:00:00",
+          "Location": "City Homeless Shelter",
+          "Description": "Serve meals and provide support to those in need at the local soup kitchen.",
+          "CommunityService": {
+            "Service": "Homeless Assistance"
+          }
+        },
+        {
+          "EventName": "Community Garden Planting",
+          "EventType": "Community Service",
+          "Date": "2024-05-20",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Community Garden",
+          "Description": "Help plant vegetables and flowers in the community garden to promote sustainable food production.",
+          "CommunityService": {
+            "Service": "Community Gardening"
+          }
+        },
+        {
+          "EventName": "Senior Center Visit",
+          "EventType": "Community Service",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Local Senior Center",
+          "Description": "Spend time with seniors, play games, and engage in conversation to bring joy and companionship to elderly community members.",
+          "CommunityService": {
+            "Service": "Elderly Care"
+          }
+        },
+        {
+          "EventName": "Park Cleanup and Beautification",
+          "EventType": "Community Service",
+          "Date": "2024-06-02",
+          "StartTime": "09:00:00",
+          "EndTime": "12:00:00",
+          "Location": "City Park",
+          "Description": "Join us in cleaning up litter, planting trees, and enhancing green spaces in the local park.",
+          "CommunityService": {
+            "Service": "Park Preservation"
+          }
+        },
+        {
+          "EventName": "Blood Drive Volunteer Day",
+          "EventType": "Community Service",
+          "Date": "2024-06-08",
+          "StartTime": "12:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Community Center",
+          "Description": "Assist with registration, donor hospitality, and logistics at the community blood drive event.",
+          "CommunityService": {
+            "Service": "Blood Donation Support"
+          }
+        },
+        {
+          "EventName": "School Supply Drive",
+          "EventType": "Community Service",
+          "Date": "2024-06-15",
+          "StartTime": "10:00:00",
+          "EndTime": "14:00:00",
+          "Location": "Local School",
+          "Description": "Collect and distribute school supplies for underprivileged children in the community.",
+          "CommunityService": {
+            "Service": "Education Support"
+          }
+        },
+        {
+          "EventName": "Pet Adoption Event",
+          "EventType": "Community Service",
+          "Date": "2024-06-22",
+          "StartTime": "11:00:00",
+          "EndTime": "15:00:00",
+          "Location": "Animal Shelter",
+          "Description": "Help organize and facilitate a pet adoption event to find loving homes for shelter animals.",
+          "CommunityService": {
+            "Service": "Animal Welfare"
+          }
+        },
+        {
+          "EventName": "Home Repair and Renovation Project",
+          "EventType": "Community Service",
+          "Date": "2024-06-29",
+          "StartTime": "09:00:00",
+          "EndTime": "15:00:00",
+          "Location": "Local Neighborhood",
+          "Description": "Assist with repairing and renovating homes for low-income families in the community.",
+          "CommunityService": {
+            "Service": "Housing Support"
+          }
+        },
+        {
+          "EventName": "Environmental Education Workshop",
+          "EventType": "Community Service",
+          "Date": "2024-07-05",
+          "StartTime": "13:00:00",
+          "EndTime": "15:00:00",
+          "Location": "Community Center",
+          "Description": "Organize an educational workshop on environmental conservation and sustainable living practices.",
+          "CommunityService": {
+            "Service": "Environmental Education"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Volunteer Service Society",
+      "events": [
+        {
+          "EventName": "Food Bank Volunteering",
+          "EventType": "Community Service",
+          "Date": "2024-05-10",
+          "StartTime": "09:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Local Food Bank",
+          "Description": "Assist in sorting, packing, and distributing food to families in need at the community food bank.",
+          "CommunityService": {
+            "Service": "Food Assistance"
+          }
+        },
+        {
+          "EventName": "Homeless Shelter Support",
+          "EventType": "Community Service",
+          "Date": "2024-05-15",
+          "StartTime": "11:00:00",
+          "EndTime": "13:00:00",
+          "Location": "City Homeless Shelter",
+          "Description": "Help serve meals, organize donations, and provide assistance to homeless individuals at the local shelter.",
+          "CommunityService": {
+            "Service": "Homeless Assistance"
+          }
+        },
+        {
+          "EventName": "Community Cleanup Day",
+          "EventType": "Community Service",
+          "Date": "2024-05-20",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "City Streets",
+          "Description": "Join in cleaning up litter, graffiti removal, and beautification projects to enhance the local community.",
+          "CommunityService": {
+            "Service": "Community Beautification"
+          }
+        },
+        {
+          "EventName": "Senior Center Visitation",
+          "EventType": "Community Service",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Local Senior Center",
+          "Description": "Spend time with senior citizens, engage in conversation, and participate in activities to bring joy and companionship.",
+          "CommunityService": {
+            "Service": "Elderly Care"
+          }
+        },
+        {
+          "EventName": "Environmental Cleanup Initiative",
+          "EventType": "Community Service",
+          "Date": "2024-06-02",
+          "StartTime": "09:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Local Park",
+          "Description": "Participate in a park cleanup, tree planting, and restoration efforts to preserve natural habitats.",
+          "CommunityService": {
+            "Service": "Environmental Conservation"
+          }
+        },
+        {
+          "EventName": "Blood Donation Drive",
+          "EventType": "Community Service",
+          "Date": "2024-06-08",
+          "StartTime": "12:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Community Center",
+          "Description": "Support a blood donation drive by assisting with registration, refreshments, and donor care.",
+          "CommunityService": {
+            "Service": "Blood Donation Support"
+          }
+        },
+        {
+          "EventName": "School Tutoring Program",
+          "EventType": "Community Service",
+          "Date": "2024-06-15",
+          "StartTime": "10:00:00",
+          "EndTime": "14:00:00",
+          "Location": "Local School",
+          "Description": "Provide academic support and mentorship to students through tutoring sessions at a nearby school.",
+          "CommunityService": {
+            "Service": "Education Support"
+          }
+        },
+        {
+          "EventName": "Animal Shelter Volunteering",
+          "EventType": "Community Service",
+          "Date": "2024-06-22",
+          "StartTime": "11:00:00",
+          "EndTime": "15:00:00",
+          "Location": "Animal Shelter",
+          "Description": "Assist with animal care tasks, adoption events, and shelter maintenance at the local animal shelter.",
+          "CommunityService": {
+            "Service": "Animal Welfare"
+          }
+        },
+        {
+          "EventName": "Home Repair Assistance",
+          "EventType": "Community Service",
+          "Date": "2024-06-29",
+          "StartTime": "09:00:00",
+          "EndTime": "15:00:00",
+          "Location": "Local Neighborhood",
+          "Description": "Provide repair and renovation assistance to low-income families to improve their living conditions.",
+          "CommunityService": {
+            "Service": "Housing Support"
+          }
+        },
+        {
+          "EventName": "Community Garden Maintenance",
+          "EventType": "Community Service",
+          "Date": "2024-07-05",
+          "StartTime": "13:00:00",
+          "EndTime": "15:00:00",
+          "Location": "Community Garden",
+          "Description": "Help tend to the community garden by watering plants, weeding, and performing maintenance tasks.",
+          "CommunityService": {
+            "Service": "Community Gardening"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Civic Engagement Association",
+      "events": [
+        {
+          "EventName": "Voter Registration Drive",
+          "EventType": "Community Service",
+          "Date": "2024-05-10",
+          "StartTime": "09:00:00",
+          "EndTime": "12:00:00",
+          "Location": "City Hall",
+          "Description": "Organize a voter registration drive to encourage civic participation and voter engagement in the community.",
+          "CommunityService": {
+            "Service": "Voter Education and Registration"
+          }
+        },
+        {
+          "EventName": "Community Town Hall Meeting",
+          "EventType": "Community Service",
+          "Date": "2024-05-15",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Community Center",
+          "Description": "Host a town hall meeting to facilitate dialogue, address community concerns, and promote civic engagement.",
+          "CommunityService": {
+            "Service": "Community Empowerment"
+          }
+        },
+        {
+          "EventName": "Environmental Advocacy Campaign",
+          "EventType": "Community Service",
+          "Date": "2024-05-20",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "City Park",
+          "Description": "Lead an advocacy campaign to raise awareness about environmental issues and promote sustainable practices.",
+          "CommunityService": {
+            "Service": "Environmental Advocacy"
+          }
+        },
+        {
+          "EventName": "Community Clean-Up Day",
+          "EventType": "Community Service",
+          "Date": "2024-05-25",
+          "StartTime": "09:00:00",
+          "EndTime": "13:00:00",
+          "Location": "City Streets",
+          "Description": "Organize a city-wide clean-up day to beautify public spaces and foster community pride.",
+          "CommunityService": {
+            "Service": "Community Beautification"
+          }
+        },
+        {
+          "EventName": "Youth Mentorship Program",
+          "EventType": "Community Service",
+          "Date": "2024-06-02",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Local Community Center",
+          "Description": "Launch a youth mentorship program to provide guidance and support to at-risk youth in the community.",
+          "CommunityService": {
+            "Service": "Youth Empowerment"
+          }
+        },
+        {
+          "EventName": "Citizenship Workshop",
+          "EventType": "Community Service",
+          "Date": "2024-06-08",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Community Center",
+          "Description": "Conduct a citizenship workshop to assist immigrants in the naturalization process and promote civic engagement.",
+          "CommunityService": {
+            "Service": "Immigrant Integration"
+          }
+        },
+        {
+          "EventName": "Elderly Assistance Program",
+          "EventType": "Community Service",
+          "Date": "2024-06-15",
+          "StartTime": "11:00:00",
+          "EndTime": "13:00:00",
+          "Location": "Senior Living Facility",
+          "Description": "Provide assistance with errands, transportation, and companionship to elderly residents at a local senior living facility.",
+          "CommunityService": {
+            "Service": "Elderly Care"
+          }
+        },
+        {
+          "EventName": "Community Garden Initiative",
+          "EventType": "Community Service",
+          "Date": "2024-06-22",
+          "StartTime": "09:00:00",
+          "EndTime": "11:00:00",
+          "Location": "Community Garden",
+          "Description": "Collaborate with local residents to establish and maintain a community garden for sustainable food production.",
+          "CommunityService": {
+            "Service": "Community Gardening"
+          }
+        },
+        {
+          "EventName": "Literacy Program for Underserved Communities",
+          "EventType": "Community Service",
+          "Date": "2024-06-29",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Local Library",
+          "Description": "Initiate a literacy program to provide reading resources and support to underserved communities.",
+          "CommunityService": {
+            "Service": "Literacy Promotion"
+          }
+        },
+        {
+          "EventName": "Homeless Outreach Day",
+          "EventType": "Community Service",
+          "Date": "2024-07-05",
+          "StartTime": "13:00:00",
+          "EndTime": "15:00:00",
+          "Location": "City Streets",
+          "Description": "Organize a homeless outreach day to distribute care packages, meals, and resources to individuals experiencing homelessness.",
+          "CommunityService": {
+            "Service": "Homeless Assistance"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Social Impact Society",
+      "events": [
+        {
+          "EventName": "Homeless Shelter Volunteer Day",
+          "EventType": "Community Service",
+          "Date": "2024-05-10",
+          "StartTime": "09:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Local Homeless Shelter",
+          "Description": "Volunteer at the homeless shelter by serving meals, organizing donations, and providing support to individuals experiencing homelessness.",
+          "CommunityService": {
+            "Service": "Homeless Assistance"
+          }
+        },
+        {
+          "EventName": "Environmental Cleanup Initiative",
+          "EventType": "Community Service",
+          "Date": "2024-05-15",
+          "StartTime": "10:00:00",
+          "EndTime": "13:00:00",
+          "Location": "City Park",
+          "Description": "Participate in a park cleanup event to remove litter, plant trees, and improve the local environment.",
+          "CommunityService": {
+            "Service": "Environmental Conservation"
+          }
+        },
+        {
+          "EventName": "Community Food Drive",
+          "EventType": "Community Service",
+          "Date": "2024-05-20",
+          "StartTime": "11:00:00",
+          "EndTime": "14:00:00",
+          "Location": "Local Community Center",
+          "Description": "Organize a food drive to collect non-perishable items for distribution to families in need within the community.",
+          "CommunityService": {
+            "Service": "Food Assistance"
+          }
+        },
+        {
+          "EventName": "Senior Center Visitation",
+          "EventType": "Community Service",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Local Senior Center",
+          "Description": "Visit the senior center to spend time with elderly residents, engage in activities, and provide companionship.",
+          "CommunityService": {
+            "Service": "Elderly Care"
+          }
+        },
+        {
+          "EventName": "Children's Hospital Volunteering",
+          "EventType": "Community Service",
+          "Date": "2024-06-02",
+          "StartTime": "09:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Local Children's Hospital",
+          "Description": "Volunteer at the children's hospital by reading to patients, playing games, and providing emotional support.",
+          "CommunityService": {
+            "Service": "Healthcare Support"
+          }
+        },
+        {
+          "EventName": "Animal Shelter Adoption Event",
+          "EventType": "Community Service",
+          "Date": "2024-06-08",
+          "StartTime": "11:00:00",
+          "EndTime": "15:00:00",
+          "Location": "Animal Shelter",
+          "Description": "Organize an adoption event at the animal shelter to help homeless animals find loving forever homes.",
+          "CommunityService": {
+            "Service": "Animal Welfare"
+          }
+        },
+        {
+          "EventName": "Community Literacy Program",
+          "EventType": "Community Service",
+          "Date": "2024-06-15",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Local Library",
+          "Description": "Establish a literacy program to provide reading resources and tutoring support to children in underserved communities.",
+          "CommunityService": {
+            "Service": "Literacy Promotion"
+          }
+        },
+        {
+          "EventName": "Community Garden Maintenance",
+          "EventType": "Community Service",
+          "Date": "2024-06-22",
+          "StartTime": "13:00:00",
+          "EndTime": "15:00:00",
+          "Location": "Community Garden",
+          "Description": "Assist with garden maintenance tasks such as weeding, watering, and planting to support community gardening efforts.",
+          "CommunityService": {
+            "Service": "Community Gardening"
+          }
+        },
+        {
+          "EventName": "Blood Donation Drive",
+          "EventType": "Community Service",
+          "Date": "2024-06-29",
+          "StartTime": "12:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Community Center",
+          "Description": "Host a blood donation drive to collect life-saving blood donations for patients in need.",
+          "CommunityService": {
+            "Service": "Blood Donation Support"
+          }
+        },
+        {
+          "EventName": "Community Recycling Initiative",
+          "EventType": "Community Service",
+          "Date": "2024-07-05",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "City Recycling Center",
+          "Description": "Organize a community-wide recycling initiative to promote environmental sustainability and reduce waste.",
+          "CommunityService": {
+            "Service": "Recycling Advocacy"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Service Learning Alliance",
+      "events": [
+        {
+          "EventName": "Community Clean-Up Day",
+          "EventType": "Community Service",
+          "Date": "2024-05-10",
+          "StartTime": "09:00:00",
+          "EndTime": "12:00:00",
+          "Location": "City Streets",
+          "Description": "Organize a city-wide clean-up day to remove litter, beautify public spaces, and promote community pride.",
+          "CommunityService": {
+            "Service": "Community Beautification"
+          }
+        },
+        {
+          "EventName": "Soup Kitchen Volunteering",
+          "EventType": "Community Service",
+          "Date": "2024-05-15",
+          "StartTime": "11:00:00",
+          "EndTime": "13:00:00",
+          "Location": "Local Soup Kitchen",
+          "Description": "Volunteer at the soup kitchen by preparing and serving meals to individuals experiencing food insecurity.",
+          "CommunityService": {
+            "Service": "Food Assistance"
+          }
+        },
+        {
+          "EventName": "Senior Center Assistance Program",
+          "EventType": "Community Service",
+          "Date": "2024-05-20",
+          "StartTime": "10:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Local Senior Center",
+          "Description": "Assist at the senior center by organizing activities, providing companionship, and supporting elderly residents.",
+          "CommunityService": {
+            "Service": "Elderly Care"
+          }
+        },
+        {
+          "EventName": "Community Garden Project",
+          "EventType": "Community Service",
+          "Date": "2024-05-25",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Community Garden",
+          "Description": "Participate in planting, watering, and maintaining a community garden to promote sustainable food production.",
+          "CommunityService": {
+            "Service": "Community Gardening"
+          }
+        },
+        {
+          "EventName": "Blood Drive Volunteer Day",
+          "EventType": "Community Service",
+          "Date": "2024-06-02",
+          "StartTime": "09:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Community Center",
+          "Description": "Support a blood donation drive by assisting with registration, donor hospitality, and logistics.",
+          "CommunityService": {
+            "Service": "Blood Donation Support"
+          }
+        },
+        {
+          "EventName": "Community Recycling Event",
+          "EventType": "Community Service",
+          "Date": "2024-06-08",
+          "StartTime": "11:00:00",
+          "EndTime": "14:00:00",
+          "Location": "City Recycling Center",
+          "Description": "Host a recycling event to encourage proper waste disposal and raise awareness about environmental sustainability.",
+          "CommunityService": {
+            "Service": "Recycling Advocacy"
+          }
+        },
+        {
+          "EventName": "Home Repair Volunteer Project",
+          "EventType": "Community Service",
+          "Date": "2024-06-15",
+          "StartTime": "10:00:00",
+          "EndTime": "13:00:00",
+          "Location": "Local Neighborhood",
+          "Description": "Assist with home repairs and renovations for families in need to improve living conditions.",
+          "CommunityService": {
+            "Service": "Housing Support"
+          }
+        },
+        {
+          "EventName": "Literacy Outreach Program",
+          "EventType": "Community Service",
+          "Date": "2024-06-22",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Local Library",
+          "Description": "Provide literacy support to children and adults through tutoring, reading sessions, and educational activities.",
+          "CommunityService": {
+            "Service": "Literacy Promotion"
+          }
+        },
+        {
+          "EventName": "Community Health Fair",
+          "EventType": "Community Service",
+          "Date": "2024-06-29",
+          "StartTime": "10:00:00",
+          "EndTime": "13:00:00",
+          "Location": "Community Center",
+          "Description": "Organize a health fair to provide free health screenings, information, and resources to the community.",
+          "CommunityService": {
+            "Service": "Healthcare Support"
+          }
+        },
+        {
+          "EventName": "Youth Mentorship Initiative",
+          "EventType": "Community Service",
+          "Date": "2024-07-05",
+          "StartTime": "11:00:00",
+          "EndTime": "13:00:00",
+          "Location": "Local Community Center",
+          "Description": "Establish a youth mentorship program to empower and support at-risk youth in the community.",
+          "CommunityService": {
+            "Service": "Youth Empowerment"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Unity Alliance",
+      "events": [
+        {
+          "EventName": "Networking Mixer: Cultural Exchange",
+          "EventType": "Social",
+          "Date": "2024-05-10",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Student Center",
+          "Description": "Join us for an evening of cultural exchange, networking, and building connections with fellow students from diverse backgrounds.",
+          "Social": {
+            "Activity": "Networking Mixer"
+          }
+        },
+        {
+          "EventName": "Movie Night: Diversity Celebration",
+          "EventType": "Social",
+          "Date": "2024-05-15",
+          "StartTime": "19:00:00",
+          "EndTime": "21:00:00",
+          "Location": "Outdoor Amphitheater",
+          "Description": "Gather under the stars for a movie night celebrating diversity, inclusion, and unity. Free popcorn provided!",
+          "Social": {
+            "Activity": "Movie Night"
+          }
+        },
+        {
+          "EventName": "Cultural Potluck Dinner",
+          "EventType": "Social",
+          "Date": "2024-05-20",
+          "StartTime": "17:30:00",
+          "EndTime": "19:30:00",
+          "Location": "Student Commons",
+          "Description": "Bring a dish from your culture to share with others and enjoy a delicious potluck dinner filled with diverse cuisines.",
+          "Social": {
+            "Activity": "Potluck Dinner"
+          }
+        },
+        {
+          "EventName": "International Music Showcase",
+          "EventType": "Social",
+          "Date": "2024-05-25",
+          "StartTime": "20:00:00",
+          "EndTime": "22:00:00",
+          "Location": "Auditorium",
+          "Description": "Experience a vibrant showcase of music from around the world featuring performances by international students.",
+          "Social": {
+            "Activity": "Music Showcase"
+          }
+        },
+        {
+          "EventName": "Dance Workshop: Latin Rhythms",
+          "EventType": "Social",
+          "Date": "2024-06-02",
+          "StartTime": "16:00:00",
+          "EndTime": "18:00:00",
+          "Location": "Dance Studio",
+          "Description": "Learn popular Latin dance moves and rhythms in this fun and interactive workshop suitable for all skill levels.",
+          "Social": {
+            "Activity": "Dance Workshop"
+          }
+        },
+        {
+          "EventName": "Board Game Night: Unity Edition",
+          "EventType": "Social",
+          "Date": "2024-06-08",
+          "StartTime": "19:30:00",
+          "EndTime": "21:30:00",
+          "Location": "Student Lounge",
+          "Description": "Join us for a night of friendly competition and camaraderie as we play a variety of board games promoting teamwork and unity.",
+          "Social": {
+            "Activity": "Board Game Night"
+          }
+        },
+        {
+          "EventName": "Unity Picnic in the Park",
+          "EventType": "Social",
+          "Date": "2024-06-15",
+          "StartTime": "12:00:00",
+          "EndTime": "15:00:00",
+          "Location": "City Park",
+          "Description": "Bring your friends and enjoy a relaxing picnic in the park with games, music, and good company.",
+          "Social": {
+            "Activity": "Picnic"
+          }
+        },
+        {
+          "EventName": "Art Exhibition: Celebrating Diversity",
+          "EventType": "Social",
+          "Date": "2024-06-22",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Art Gallery",
+          "Description": "Explore a collection of artworks that celebrate diversity, inclusivity, and the beauty of different cultures.",
+          "Social": {
+            "Activity": "Art Exhibition"
+          }
+        },
+        {
+          "EventName": "Community Volunteer Day: Unity in Action",
+          "EventType": "Social",
+          "Date": "2024-06-29",
+          "StartTime": "09:00:00",
+          "EndTime": "12:00:00",
+          "Location": "Local Community Center",
+          "Description": "Join us as we volunteer together to make a positive impact in the community, promoting unity through service.",
+          "Social": {
+            "Activity": "Community Service"
+          }
+        },
+        {
+          "EventName": "Open Mic Night: Voices of Unity",
+          "EventType": "Social",
+          "Date": "2024-07-05",
+          "StartTime": "20:00:00",
+          "EndTime": "22:00:00",
+          "Location": "Student Union",
+          "Description": "Express yourself and share your talents at our open mic night celebrating the diverse voices and talents within our community.",
+          "Social": {
+            "Activity": "Open Mic Night"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Diversity Network",
+      "events": [
+        {
+          "EventName": "Cultural Food Festival",
+          "EventType": "Social",
+          "Date": "2024-05-10",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Student Center",
+          "Description": "Join us for a culinary journey around the world as we celebrate diversity through delicious international cuisines.",
+          "Social": {
+            "Activity": "Food Festival"
+          }
+        },
+        {
+          "EventName": "Unity Dance Party",
+          "EventType": "Social",
+          "Date": "2024-05-15",
+          "StartTime": "20:00:00",
+          "EndTime": "23:00:00",
+          "Location": "Campus Gymnasium",
+          "Description": "Get ready to groove to the beat and dance the night away in celebration of unity and diversity.",
+          "Social": {
+            "Activity": "Dance Party"
+          }
+        },
+        {
+          "EventName": "Cultural Movie Night",
+          "EventType": "Social",
+          "Date": "2024-05-20",
+          "StartTime": "19:00:00",
+          "EndTime": "21:00:00",
+          "Location": "Outdoor Amphitheater",
+          "Description": "Enjoy an outdoor movie screening featuring films from various cultures, followed by discussions and reflections.",
+          "Social": {
+            "Activity": "Movie Night"
+          }
+        },
+        {
+          "EventName": "International Fashion Show",
+          "EventType": "Social",
+          "Date": "2024-05-25",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Student Union",
+          "Description": "Witness a dazzling display of fashion representing different cultures and traditions from around the globe.",
+          "Social": {
+            "Activity": "Fashion Show"
+          }
+        },
+        {
+          "EventName": "Language Exchange Mixer",
+          "EventType": "Social",
+          "Date": "2024-06-02",
+          "StartTime": "16:00:00",
+          "EndTime": "18:00:00",
+          "Location": "Student Commons",
+          "Description": "Practice your language skills and meet new friends in this fun and interactive language exchange event.",
+          "Social": {
+            "Activity": "Language Mixer"
+          }
+        },
+        {
+          "EventName": "Cultural Trivia Night",
+          "EventType": "Social",
+          "Date": "2024-06-08",
+          "StartTime": "19:30:00",
+          "EndTime": "21:30:00",
+          "Location": "Student Lounge",
+          "Description": "Test your knowledge of world cultures and traditions in a friendly competition of cultural trivia.",
+          "Social": {
+            "Activity": "Trivia Night"
+          }
+        },
+        {
+          "EventName": "Unity Art Workshop",
+          "EventType": "Social",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Art Studio",
+          "Description": "Unleash your creativity and express unity through art in this collaborative workshop for all skill levels.",
+          "Social": {
+            "Activity": "Art Workshop"
+          }
+        },
+        {
+          "EventName": "Cultural Heritage Exhibition",
+          "EventType": "Social",
+          "Date": "2024-06-22",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Student Gallery",
+          "Description": "Explore the rich cultural heritage of different communities through exhibits, artifacts, and storytelling.",
+          "Social": {
+            "Activity": "Heritage Exhibition"
+          }
+        },
+        {
+          "EventName": "Global Music Concert",
+          "EventType": "Social",
+          "Date": "2024-06-29",
+          "StartTime": "19:00:00",
+          "EndTime": "21:00:00",
+          "Location": "Outdoor Stage",
+          "Description": "Experience the rhythms and melodies of the world with live performances by international musicians.",
+          "Social": {
+            "Activity": "Music Concert"
+          }
+        },
+        {
+          "EventName": "Unity Picnic and Games Day",
+          "EventType": "Social",
+          "Date": "2024-07-05",
+          "StartTime": "12:00:00",
+          "EndTime": "15:00:00",
+          "Location": "City Park",
+          "Description": "Celebrate unity and diversity with a day of outdoor fun, picnic snacks, and friendly games for everyone to enjoy.",
+          "Social": {
+            "Activity": "Picnic and Games"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Social Harmony Society",
+      "events": [
+        {
+          "EventName": "Unity Potluck Dinner",
+          "EventType": "Social",
+          "Date": "2024-05-10",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Student Center",
+          "Description": "Come together and share a meal in celebration of our diverse backgrounds and shared values of harmony and unity.",
+          "Social": {
+            "Activity": "Potluck Dinner"
+          }
+        },
+        {
+          "EventName": "Diversity Dance Showcase",
+          "EventType": "Social",
+          "Date": "2024-05-15",
+          "StartTime": "19:00:00",
+          "EndTime": "21:00:00",
+          "Location": "Campus Auditorium",
+          "Description": "Experience the beauty of diversity through captivating dance performances representing different cultures and traditions.",
+          "Social": {
+            "Activity": "Dance Showcase"
+          }
+        },
+        {
+          "EventName": "International Film Festival",
+          "EventType": "Social",
+          "Date": "2024-05-20",
+          "StartTime": "17:30:00",
+          "EndTime": "21:30:00",
+          "Location": "Student Union",
+          "Description": "Enjoy an evening of cinema featuring a curated selection of international films that promote understanding and empathy.",
+          "Social": {
+            "Activity": "Film Festival"
+          }
+        },
+        {
+          "EventName": "Cultural Art Exhibition",
+          "EventType": "Social",
+          "Date": "2024-05-25",
+          "StartTime": "15:00:00",
+          "EndTime": "18:00:00",
+          "Location": "Art Gallery",
+          "Description": "Immerse yourself in a showcase of art from diverse cultures, highlighting the beauty and richness of global artistic expressions.",
+          "Social": {
+            "Activity": "Art Exhibition"
+          }
+        },
+        {
+          "EventName": "Language Exchange Social",
+          "EventType": "Social",
+          "Date": "2024-06-02",
+          "StartTime": "16:00:00",
+          "EndTime": "18:00:00",
+          "Location": "Student Commons",
+          "Description": "Practice languages, make new friends, and celebrate linguistic diversity in this interactive and engaging language exchange event.",
+          "Social": {
+            "Activity": "Language Exchange"
+          }
+        },
+        {
+          "EventName": "Unity Talent Show",
+          "EventType": "Social",
+          "Date": "2024-06-08",
+          "StartTime": "19:30:00",
+          "EndTime": "21:30:00",
+          "Location": "Student Lounge",
+          "Description": "Showcase your talents and celebrate the diverse talents within our community in a night filled with music, dance, and more.",
+          "Social": {
+            "Activity": "Talent Show"
+          }
+        },
+        {
+          "EventName": "Cultural Heritage Day",
+          "EventType": "Social",
+          "Date": "2024-06-15",
+          "StartTime": "11:00:00",
+          "EndTime": "14:00:00",
+          "Location": "Outdoor Pavilion",
+          "Description": "Celebrate the rich cultural heritage of our community with traditional performances, crafts, and food from around the world.",
+          "Social": {
+            "Activity": "Heritage Day"
+          }
+        },
+        {
+          "EventName": "Global Music Jam Session",
+          "EventType": "Social",
+          "Date": "2024-06-22",
+          "StartTime": "19:00:00",
+          "EndTime": "22:00:00",
+          "Location": "Campus Green",
+          "Description": "Bring your instruments and join us for a jam session featuring music from different cultures, genres, and traditions.",
+          "Social": {
+            "Activity": "Music Jam Session"
+          }
+        },
+        {
+          "EventName": "Unity Sports Tournament",
+          "EventType": "Social",
+          "Date": "2024-06-29",
+          "StartTime": "13:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Campus Sports Complex",
+          "Description": "Compete in friendly sports matches and games that promote teamwork, camaraderie, and unity among participants.",
+          "Social": {
+            "Activity": "Sports Tournament"
+          }
+        },
+        {
+          "EventName": "Interfaith Dialogue Circle",
+          "EventType": "Social",
+          "Date": "2024-07-05",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Interfaith Center",
+          "Description": "Engage in open and respectful conversations about faith, spirituality, and belief systems to foster understanding and harmony.",
+          "Social": {
+            "Activity": "Interfaith Dialogue"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Cultural Exchange Club",
+      "events": [
+        {
+          "EventName": "International Food Festival",
+          "EventType": "Social",
+          "Date": "2024-05-10",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Student Center",
+          "Description": "Indulge in a culinary journey around the world with delicious dishes from various cultures prepared by club members.",
+          "Social": {
+            "Activity": "Food Festival"
+          }
+        },
+        {
+          "EventName": "Global Dance Party",
+          "EventType": "Social",
+          "Date": "2024-05-15",
+          "StartTime": "20:00:00",
+          "EndTime": "23:00:00",
+          "Location": "Campus Gymnasium",
+          "Description": "Experience an electrifying dance extravaganza featuring music and dance styles from diverse cultures.",
+          "Social": {
+            "Activity": "Dance Party"
+          }
+        },
+        {
+          "EventName": "Cultural Film Night",
+          "EventType": "Social",
+          "Date": "2024-05-20",
+          "StartTime": "19:00:00",
+          "EndTime": "21:00:00",
+          "Location": "Outdoor Amphitheater",
+          "Description": "Enjoy an outdoor screening of films representing different cultures, followed by discussions and reflections.",
+          "Social": {
+            "Activity": "Film Night"
+          }
+        },
+        {
+          "EventName": "Traditional Music Concert",
+          "EventType": "Social",
+          "Date": "2024-05-25",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Student Union",
+          "Description": "Immerse yourself in the enchanting melodies of traditional music performances from around the globe.",
+          "Social": {
+            "Activity": "Music Concert"
+          }
+        },
+        {
+          "EventName": "Language Exchange Mixer",
+          "EventType": "Social",
+          "Date": "2024-06-02",
+          "StartTime": "16:00:00",
+          "EndTime": "18:00:00",
+          "Location": "Student Commons",
+          "Description": "Practice languages, make new friends, and celebrate linguistic diversity in this interactive language exchange event.",
+          "Social": {
+            "Activity": "Language Mixer"
+          }
+        },
+        {
+          "EventName": "Cultural Trivia Challenge",
+          "EventType": "Social",
+          "Date": "2024-06-08",
+          "StartTime": "19:30:00",
+          "EndTime": "21:30:00",
+          "Location": "Student Lounge",
+          "Description": "Test your knowledge of world cultures and traditions in a fun and competitive trivia challenge.",
+          "Social": {
+            "Activity": "Trivia Challenge"
+          }
+        },
+        {
+          "EventName": "Cultural Craft Workshop",
+          "EventType": "Social",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Art Studio",
+          "Description": "Explore the art of different cultures and create your own cultural crafts in this hands-on workshop.",
+          "Social": {
+            "Activity": "Craft Workshop"
+          }
+        },
+        {
+          "EventName": "Cultural Fashion Show",
+          "EventType": "Social",
+          "Date": "2024-06-22",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Campus Green",
+          "Description": "Experience the diversity of fashion from around the world with a dazzling cultural fashion show.",
+          "Social": {
+            "Activity": "Fashion Show"
+          }
+        },
+        {
+          "EventName": "Cultural Poetry Slam",
+          "EventType": "Social",
+          "Date": "2024-06-29",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Student Lounge",
+          "Description": "Celebrate cultural expression through poetry and spoken word performances representing diverse voices.",
+          "Social": {
+            "Activity": "Poetry Slam"
+          }
+        },
+        {
+          "EventName": "Unity Picnic and Games",
+          "EventType": "Social",
+          "Date": "2024-07-05",
+          "StartTime": "12:00:00",
+          "EndTime": "15:00:00",
+          "Location": "City Park",
+          "Description": "Enjoy a day of outdoor fun, food, and games with friends from different cultural backgrounds.",
+          "Social": {
+            "Activity": "Picnic and Games"
+          }
+        }
+      ]
+    },
+    {
+      "ClubName": "Global Connections Club",
+      "events": [
+        {
+          "EventName": "International Potluck Dinner",
+          "EventType": "Social",
+          "Date": "2024-05-10",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Student Center",
+          "Description": "Join us for a culinary adventure with dishes from around the world, prepared by club members and friends.",
+          "Social": {
+            "Activity": "Potluck Dinner"
+          }
+        },
+        {
+          "EventName": "Unity Dance Night",
+          "EventType": "Social",
+          "Date": "2024-05-15",
+          "StartTime": "20:00:00",
+          "EndTime": "23:00:00",
+          "Location": "Campus Gymnasium",
+          "Description": "Dance to the rhythms of the world as we celebrate diversity and unity through music and dance.",
+          "Social": {
+            "Activity": "Dance Night"
+          }
+        },
+        {
+          "EventName": "Global Film Festival",
+          "EventType": "Social",
+          "Date": "2024-05-20",
+          "StartTime": "19:00:00",
+          "EndTime": "21:00:00",
+          "Location": "Outdoor Amphitheater",
+          "Description": "Experience cinema from different cultures with a lineup of international films that inspire, entertain, and provoke thought.",
+          "Social": {
+            "Activity": "Film Festival"
+          }
+        },
+        {
+          "EventName": "Cultural Music Concert",
+          "EventType": "Social",
+          "Date": "2024-05-25",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Student Union",
+          "Description": "Enjoy an evening of diverse musical performances showcasing the rich tapestry of global music traditions.",
+          "Social": {
+            "Activity": "Music Concert"
+          }
+        },
+        {
+          "EventName": "Language Exchange Social",
+          "EventType": "Social",
+          "Date": "2024-06-02",
+          "StartTime": "16:00:00",
+          "EndTime": "18:00:00",
+          "Location": "Student Commons",
+          "Description": "Practice languages, make new friends, and explore different cultures in this interactive language exchange event.",
+          "Social": {
+            "Activity": "Language Exchange"
+          }
+        },
+        {
+          "EventName": "Cultural Trivia Night",
+          "EventType": "Social",
+          "Date": "2024-06-08",
+          "StartTime": "19:30:00",
+          "EndTime": "21:30:00",
+          "Location": "Student Lounge",
+          "Description": "Test your knowledge of world cultures and win prizes in a fun and competitive trivia night.",
+          "Social": {
+            "Activity": "Trivia Night"
+          }
+        },
+        {
+          "EventName": "Global Art Exhibition",
+          "EventType": "Social",
+          "Date": "2024-06-15",
+          "StartTime": "14:00:00",
+          "EndTime": "16:00:00",
+          "Location": "Art Studio",
+          "Description": "Explore diverse artistic expressions from around the world with an exhibition showcasing global creativity.",
+          "Social": {
+            "Activity": "Art Exhibition"
+          }
+        },
+        {
+          "EventName": "Cultural Fashion Show",
+          "EventType": "Social",
+          "Date": "2024-06-22",
+          "StartTime": "15:00:00",
+          "EndTime": "17:00:00",
+          "Location": "Campus Green",
+          "Description": "Experience the beauty and diversity of global fashion with a captivating cultural fashion show.",
+          "Social": {
+            "Activity": "Fashion Show"
+          }
+        },
+        {
+          "EventName": "Global Poetry Slam",
+          "EventType": "Social",
+          "Date": "2024-06-29",
+          "StartTime": "18:00:00",
+          "EndTime": "20:00:00",
+          "Location": "Student Lounge",
+          "Description": "Celebrate cultural expression and linguistic diversity through poetry and spoken word performances from around the world.",
+          "Social": {
+            "Activity": "Poetry Slam"
+          }
+        },
+        {
+          "EventName": "Unity Picnic and Games",
+          "EventType": "Social",
+          "Date": "2024-07-05",
+          "StartTime": "12:00:00",
+          "EndTime": "15:00:00",
+          "Location": "City Park",
+          "Description": "Enjoy a day of outdoor fun, delicious food, and friendly games with friends from diverse cultural backgrounds.",
+          "Social": {
+            "Activity": "Picnic and Games"
+          }
+        }
+      ]
+    }
+  ]
+}

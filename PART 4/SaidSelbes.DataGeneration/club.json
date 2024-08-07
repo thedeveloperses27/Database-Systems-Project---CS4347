@@ -1,0 +1,105 @@
+{
+    "clubs": [
+      {
+        "Name": "Academic Club",
+        "Type": "Seminar",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Career Development Club",
+        "Type": "Seminar",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Professional Networking Club",
+        "Type": "Seminar",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Research Club",
+        "Type": "Seminar",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Technology and Innovation Club",
+        "Type": "Seminar",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Entrepreneurship Club",
+        "Type": "Workshops",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Coding Club",
+        "Type": "Workshops",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Creative Writing Club",
+        "Type": "Workshops",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Photography Club",
+        "Type": "Workshops",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Health and Wellness Club",
+        "Type": "Workshops",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Community Outreach Club",
+        "Type": "Community Service",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Volunteer Service Society",
+        "Type": "Community Service",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Civic Engagement Association",
+        "Type": "Community Service",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Social Impact Society",
+        "Type": "Community Service",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Service Learning Alliance",
+        "Type": "Community Service",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Unity Alliance",
+        "Type": "Social",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Diversity Network",
+        "Type": "Social",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Social Harmony Society",
+        "Type": "Social",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Cultural Exchange Club",
+        "Type": "Social",
+        "FoundedDate": "2024-01-01"
+      },
+      {
+        "Name": "Global Connections Club",
+        "Type": "Social",
+        "FoundedDate": "2024-01-01"
+      }
+    ]
+  }
+  
